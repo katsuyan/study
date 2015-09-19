@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'lo-dash' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose cache add [ 'lo-dash', null ]
+5 verbose cache add name=undefined spec="lo-dash" args=["lo-dash",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'lo-dash',
+6 verbose parsed url   path: 'lo-dash',
+6 verbose parsed url   href: 'lo-dash' }
+7 silly lockFile b15501e5-lo-dash lo-dash
+8 verbose lock lo-dash /home/vagrant/.npm/b15501e5-lo-dash.lock
+9 silly lockFile b15501e5-lo-dash lo-dash
+10 silly lockFile b15501e5-lo-dash lo-dash
+11 verbose addNamed [ 'lo-dash', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d013afe1-lo-dash lo-dash@
+14 verbose lock lo-dash@ /home/vagrant/.npm/d013afe1-lo-dash.lock
+15 silly addNameRange { name: 'lo-dash', range: '*', hasData: false }
+16 verbose request where is /lo-dash
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 4e3a14b964bc8aa8
+19 verbose url raw /lo-dash
+20 verbose url resolving [ 'https://registry.npmjs.org/', './lo-dash' ]
+21 verbose url resolved https://registry.npmjs.org/lo-dash
+22 verbose request where is https://registry.npmjs.org/lo-dash
+23 info trying registry request attempt 1 at 12:24:33
+24 http GET https://registry.npmjs.org/lo-dash
+25 http 404 https://registry.npmjs.org/lo-dash
+26 verbose headers { date: 'Sun, 26 Apr 2015 12:24:28 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '51',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1430051067.964410,VS0,VE460',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Sun, 26 Apr 2015 12:24:28 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '51',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-nrt6129-NRT',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1430051067.964410,VS0,VE460',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile d013afe1-lo-dash lo-dash@
+29 silly lockFile d013afe1-lo-dash lo-dash@
+30 error 404 404 Not Found: lo-dash
+30 error 404
+30 error 404 'lo-dash' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 2.6.32-431.el6.x86_64
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "lo-dash"
+33 error cwd /vagrant/javascript
+34 error node -v v0.10.38
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
