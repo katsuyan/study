@@ -1,0 +1,82 @@
+[1 of 1] Compiling Main             ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1152/cabal-helper-0.6.0.0/dist/dist-sandbox-5bf6cc0d/setup/setup.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1152/cabal-helper-0.6.0.0/dist/dist-sandbox-5bf6cc0d/setup/Main.o )
+Linking /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1152/cabal-helper-0.6.0.0/dist/dist-sandbox-5bf6cc0d/setup/setup ...
+Configuring cabal-helper-0.6.0.0...
+Building cabal-helper-0.6.0.0...
+Preprocessing library cabal-helper-0.6.0.0...
+[1 of 4] Compiling CabalHelper.Sandbox ( CabalHelper/Sandbox.hs, dist/dist-sandbox-5bf6cc0d/build/CabalHelper/Sandbox.o )
+[2 of 4] Compiling CabalHelper.Types ( CabalHelper/Types.hs, dist/dist-sandbox-5bf6cc0d/build/CabalHelper/Types.o )
+[3 of 4] Compiling Paths_cabal_helper ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_cabal_helper.o )
+[4 of 4] Compiling Distribution.Helper ( Distribution/Helper.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Helper.o )
+[1 of 4] Compiling CabalHelper.Sandbox ( CabalHelper/Sandbox.hs, dist/dist-sandbox-5bf6cc0d/build/CabalHelper/Sandbox.p_o )
+[2 of 4] Compiling CabalHelper.Types ( CabalHelper/Types.hs, dist/dist-sandbox-5bf6cc0d/build/CabalHelper/Types.p_o )
+[3 of 4] Compiling Paths_cabal_helper ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_cabal_helper.p_o )
+[4 of 4] Compiling Distribution.Helper ( Distribution/Helper.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Helper.p_o )
+In-place registering cabal-helper-0.6.0.0...
+Preprocessing executable 'cabal-helper-wrapper' for cabal-helper-0.6.0.0...
+[1 of 9] Compiling CabalHelper.Data ( CabalHelper/Data.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Data.o )
+[2 of 9] Compiling CabalHelper.Sandbox ( CabalHelper/Sandbox.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Sandbox.o )
+[3 of 9] Compiling CabalHelper.Types ( CabalHelper/Types.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Types.o )
+[4 of 9] Compiling CabalHelper.Log  ( CabalHelper/Log.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Log.o )
+[5 of 9] Compiling CabalHelper.GuessGhc ( CabalHelper/GuessGhc.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/GuessGhc.o )
+[6 of 9] Compiling CabalHelper.Common ( CabalHelper/Common.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Common.o )
+[7 of 9] Compiling Paths_cabal_helper ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/Paths_cabal_helper.o )
+[8 of 9] Compiling CabalHelper.Compile ( CabalHelper/Compile.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Compile.o )
+[9 of 9] Compiling Main             ( CabalHelper/Wrapper.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/Main.o )
+[7 of 9] Compiling CabalHelper.Data ( CabalHelper/Data.hs, dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper-tmp/CabalHelper/Data.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/cabal-helper-wrapper/cabal-helper-wrapper ...
+Running Haddock for cabal-helper-0.6.0.0...
+Preprocessing library cabal-helper-0.6.0.0...
+Haddock coverage:
+  33% (  2 /  6) in 'CabalHelper.Sandbox'
+  Missing documentation for:
+    Module header
+    ghcSandboxPkgDbDir (CabalHelper/Sandbox.hs:33)
+    mightExist (CabalHelper/Sandbox.hs:49)
+    dropWhileEnd (CabalHelper/Sandbox.hs:55)
+   0% (  0 /  8) in 'CabalHelper.Types'
+  Missing documentation for:
+    Module header
+    ChModuleName (CabalHelper/Types.hs:23)
+    ChComponentName (CabalHelper/Types.hs:26)
+    ChResponse (CabalHelper/Types.hs:33)
+    ChEntrypoint (CabalHelper/Types.hs:43)
+    ChPkgDb (CabalHelper/Types.hs:55)
+    Options (CabalHelper/Types.hs:60)
+    defaultOptions (CabalHelper/Types.hs:69)
+   0% (  0 /  8) in 'Paths_cabal_helper'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:15)
+    getBinDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:25)
+    getLibDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:25)
+    getDataDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:25)
+    getLibexecDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:25)
+    getDataFileName (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:32)
+    getSysconfDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_cabal_helper.hs:25)
+  72% ( 29 / 40) in 'Distribution.Helper'
+  Missing documentation for:
+    Module header
+    defaultPrograms (Distribution/Helper.hs:101)
+    QueryEnv (Distribution/Helper.hs:104)
+    qePrograms (Distribution/Helper.hs:109)
+    defaultQueryEnv (Distribution/Helper.hs:126)
+    ChModuleName (CabalHelper/Types.hs:23)
+    ChComponentName (CabalHelper/Types.hs:26)
+    ChPkgDb (CabalHelper/Types.hs:55)
+    ChEntrypoint (CabalHelper/Types.hs:43)
+    buildPlatform (Distribution/Helper.hs:325)
+    libexecNotFoundError (Distribution/Helper.hs:373)
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/cabal-helper/index.html
+Preprocessing executable 'cabal-helper-wrapper' for cabal-helper-0.6.0.0...
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-cabal-helper-0.6.0203042009175530180.0
+extended "cabal-helper-wrapper"
+Installing executable(s) in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/libexec
+Warning: The directory
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/libexec is not in the system
+search path.
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/cabal-helper-0.6.0.0-DcWeVUF893s2IPPFwgiRAi
+Registering cabal-helper-0.6.0.0...

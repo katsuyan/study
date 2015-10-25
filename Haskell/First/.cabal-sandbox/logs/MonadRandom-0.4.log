@@ -1,0 +1,129 @@
+[1 of 1] Compiling Main             ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/MonadRandom-0.4/dist/dist-sandbox-5bf6cc0d/setup/setup.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/MonadRandom-0.4/dist/dist-sandbox-5bf6cc0d/setup/Main.o )
+Linking /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/MonadRandom-0.4/dist/dist-sandbox-5bf6cc0d/setup/setup ...
+Configuring MonadRandom-0.4...
+Building MonadRandom-0.4...
+Preprocessing library MonadRandom-0.4...
+[1 of 2] Compiling Control.Monad.Random.Class ( Control/Monad/Random/Class.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Random/Class.o )
+[2 of 2] Compiling Control.Monad.Random ( Control/Monad/Random.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Random.o )
+
+Control/Monad/Random.hs:49:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Control/Monad/Random.hs:53:1: Warning:
+    Module ‘Control.Monad.Error’ is deprecated:
+      Use Control.Monad.Except instead
+
+Control/Monad/Random.hs:69:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Control/Monad/Random.hs:202:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:202:51: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:53: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[1 of 2] Compiling Control.Monad.Random.Class ( Control/Monad/Random/Class.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Random/Class.p_o )
+[2 of 2] Compiling Control.Monad.Random ( Control/Monad/Random.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Random.p_o )
+
+Control/Monad/Random.hs:49:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Control/Monad/Random.hs:53:1: Warning:
+    Module ‘Control.Monad.Error’ is deprecated:
+      Use Control.Monad.Except instead
+
+Control/Monad/Random.hs:69:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Control/Monad/Random.hs:202:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:202:51: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:53: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+In-place registering MonadRandom-0.4...
+Running Haddock for MonadRandom-0.4...
+Preprocessing library MonadRandom-0.4...
+
+Control/Monad/Random.hs:49:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Control/Monad/Random.hs:53:1: Warning:
+    Module ‘Control.Monad.Error’ is deprecated:
+      Use Control.Monad.Except instead
+
+Control/Monad/Random.hs:69:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+Control/Monad/Random.hs:202:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:202:51: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+Control/Monad/Random.hs:247:53: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Error, but defined in Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+Haddock coverage:
+Warning: Control.Monad.Random.Class: getRandom is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandomR is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandoms is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getRandomRs is exported separately but will be documented under MonadRandom. Consider exporting it together with its parent(s) for code clarity.
+Warning: Control.Monad.Random.Class: getSplit is exported separately but will be documented under MonadSplit. Consider exporting it together with its parent(s) for code clarity.
+ 100% (  3 /  3) in 'Control.Monad.Random.Class'
+ 100% ( 17 / 17) in 'Control.Monad.Random'
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/MonadRandom/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-MonadRandom-03301111371227619358.4
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/MonadRandom-0.4-0HPLrpuIT1h0NYNnfFzaza
+Registering MonadRandom-0.4...

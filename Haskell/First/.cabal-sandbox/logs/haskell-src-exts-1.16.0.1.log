@@ -1,0 +1,508 @@
+Configuring haskell-src-exts-1.16.0.1...
+Building haskell-src-exts-1.16.0.1...
+Preprocessing library haskell-src-exts-1.16.0.1...
+[ 1 of 22] Compiling Language.Haskell.Exts.Annotated.Syntax ( src/Language/Haskell/Exts/Annotated/Syntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Syntax.o )
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:112:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:113:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[ 2 of 22] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseSyntax.o )
+[ 3 of 22] Compiling Language.Haskell.Exts.Annotated.Build ( src/Language/Haskell/Exts/Annotated/Build.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Build.o )
+[ 4 of 22] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/SrcLoc.o )
+[ 5 of 22] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Comments.o )
+[ 6 of 22] Compiling Language.Haskell.Exts.Annotated.ExactPrint ( src/Language/Haskell/Exts/Annotated/ExactPrint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/ExactPrint.o )
+
+src/Language/Haskell/Exts/Annotated/ExactPrint.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 7 of 22] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Extension.o )
+
+src/Language/Haskell/Exts/Extension.hs:42:1: Warning:
+    The import of ‘<$>’ from module ‘Control.Applicative’ is redundant
+[ 8 of 22] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ExtScheme.o )
+[ 9 of 22] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Syntax.o )
+[10 of 22] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Build.o )
+[11 of 22] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Fixity.o )
+[12 of 22] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseMonad.o )
+
+src/Language/Haskell/Exts/ParseMonad.hs:43:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Exts/ParseMonad.hs:45:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[13 of 22] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalLexer.o )
+[14 of 22] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Lexer.o )
+[15 of 22] Compiling Language.Haskell.Exts.Annotated.Simplify ( src/Language/Haskell/Exts/Annotated/Simplify.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Simplify.o )
+[16 of 22] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Pretty.o )
+
+src/Language/Haskell/Exts/Pretty.hs:35:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[17 of 22] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseUtils.o )
+
+src/Language/Haskell/Exts/ParseUtils.hs:86:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[18 of 22] Compiling Language.Haskell.Exts.Annotated.Fixity ( src/Language/Haskell/Exts/Annotated/Fixity.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Fixity.o )
+[19 of 22] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalParser.o )
+[20 of 22] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Parser.o )
+[21 of 22] Compiling Language.Haskell.Exts.Annotated ( src/Language/Haskell/Exts/Annotated.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated.o )
+[22 of 22] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts.o )
+[ 1 of 22] Compiling Language.Haskell.Exts.Annotated.Syntax ( src/Language/Haskell/Exts/Annotated/Syntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Syntax.p_o )
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:112:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:113:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[ 2 of 22] Compiling Language.Haskell.Exts.ParseSyntax ( src/Language/Haskell/Exts/ParseSyntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseSyntax.p_o )
+[ 3 of 22] Compiling Language.Haskell.Exts.Annotated.Build ( src/Language/Haskell/Exts/Annotated/Build.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Build.p_o )
+[ 4 of 22] Compiling Language.Haskell.Exts.SrcLoc ( src/Language/Haskell/Exts/SrcLoc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/SrcLoc.p_o )
+[ 5 of 22] Compiling Language.Haskell.Exts.Comments ( src/Language/Haskell/Exts/Comments.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Comments.p_o )
+[ 6 of 22] Compiling Language.Haskell.Exts.Annotated.ExactPrint ( src/Language/Haskell/Exts/Annotated/ExactPrint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/ExactPrint.p_o )
+
+src/Language/Haskell/Exts/Annotated/ExactPrint.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 7 of 22] Compiling Language.Haskell.Exts.Extension ( src/Language/Haskell/Exts/Extension.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Extension.p_o )
+
+src/Language/Haskell/Exts/Extension.hs:42:1: Warning:
+    The import of ‘<$>’ from module ‘Control.Applicative’ is redundant
+[ 8 of 22] Compiling Language.Haskell.Exts.ExtScheme ( src/Language/Haskell/Exts/ExtScheme.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ExtScheme.p_o )
+[ 9 of 22] Compiling Language.Haskell.Exts.Syntax ( src/Language/Haskell/Exts/Syntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Syntax.p_o )
+[10 of 22] Compiling Language.Haskell.Exts.Build ( src/Language/Haskell/Exts/Build.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Build.p_o )
+[11 of 22] Compiling Language.Haskell.Exts.Fixity ( src/Language/Haskell/Exts/Fixity.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Fixity.p_o )
+[12 of 22] Compiling Language.Haskell.Exts.ParseMonad ( src/Language/Haskell/Exts/ParseMonad.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseMonad.p_o )
+
+src/Language/Haskell/Exts/ParseMonad.hs:43:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Exts/ParseMonad.hs:45:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[13 of 22] Compiling Language.Haskell.Exts.InternalLexer ( src/Language/Haskell/Exts/InternalLexer.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalLexer.p_o )
+[14 of 22] Compiling Language.Haskell.Exts.Lexer ( src/Language/Haskell/Exts/Lexer.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Lexer.p_o )
+[15 of 22] Compiling Language.Haskell.Exts.Annotated.Simplify ( src/Language/Haskell/Exts/Annotated/Simplify.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Simplify.p_o )
+[16 of 22] Compiling Language.Haskell.Exts.Pretty ( src/Language/Haskell/Exts/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Pretty.p_o )
+
+src/Language/Haskell/Exts/Pretty.hs:35:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[17 of 22] Compiling Language.Haskell.Exts.ParseUtils ( src/Language/Haskell/Exts/ParseUtils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/ParseUtils.p_o )
+
+src/Language/Haskell/Exts/ParseUtils.hs:86:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[18 of 22] Compiling Language.Haskell.Exts.Annotated.Fixity ( src/Language/Haskell/Exts/Annotated/Fixity.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated/Fixity.p_o )
+[19 of 22] Compiling Language.Haskell.Exts.InternalParser ( dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalParser.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/InternalParser.p_o )
+[20 of 22] Compiling Language.Haskell.Exts.Parser ( src/Language/Haskell/Exts/Parser.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Parser.p_o )
+[21 of 22] Compiling Language.Haskell.Exts.Annotated ( src/Language/Haskell/Exts/Annotated.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts/Annotated.p_o )
+[22 of 22] Compiling Language.Haskell.Exts ( src/Language/Haskell/Exts.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Exts.p_o )
+In-place registering haskell-src-exts-1.16.0.1...
+Running Haddock for haskell-src-exts-1.16.0.1...
+Preprocessing library haskell-src-exts-1.16.0.1...
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:112:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Language/Haskell/Exts/Annotated/Syntax.hs:113:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+src/Language/Haskell/Exts/Annotated/ExactPrint.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Exts/Extension.hs:42:1: Warning:
+    The import of ‘<$>’ from module ‘Control.Applicative’ is redundant
+Haddock coverage:
+  70% ( 96 /137) in 'Language.Haskell.Exts.Annotated.Syntax'
+  Missing documentation for:
+    prelude_mod (src/Language/Haskell/Exts/Annotated/Syntax.hs:934)
+    main_mod (src/Language/Haskell/Exts/Annotated/Syntax.hs:934)
+    main_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:938)
+    unit_con_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:941)
+    tuple_con_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:944)
+    list_cons_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:947)
+    unboxed_singleton_con_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:950)
+    unit_con (src/Language/Haskell/Exts/Annotated/Syntax.hs:953)
+    tuple_con (src/Language/Haskell/Exts/Annotated/Syntax.hs:956)
+    unboxed_singleton_con (src/Language/Haskell/Exts/Annotated/Syntax.hs:959)
+    as_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    qualified_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    hiding_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    minus_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    bang_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    dot_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    star_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:962)
+    export_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    safe_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    unsafe_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    interruptible_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    threadsafe_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    stdcall_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    ccall_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    cplusplus_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    dotnet_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    jvm_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    js_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    capi_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    forall_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    family_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:971)
+    unit_tycon_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:989)
+    fun_tycon_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:989)
+    list_tycon_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:989)
+    tuple_tycon_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:995)
+    unboxed_singleton_tycon_name (src/Language/Haskell/Exts/Annotated/Syntax.hs:989)
+    unit_tycon (src/Language/Haskell/Exts/Annotated/Syntax.hs:998)
+    fun_tycon (src/Language/Haskell/Exts/Annotated/Syntax.hs:998)
+    list_tycon (src/Language/Haskell/Exts/Annotated/Syntax.hs:998)
+    tuple_tycon (src/Language/Haskell/Exts/Annotated/Syntax.hs:1004)
+    unboxed_singleton_tycon (src/Language/Haskell/Exts/Annotated/Syntax.hs:998)
+   0% (  0 / 21) in 'Language.Haskell.Exts.ParseSyntax'
+  Missing documentation for:
+    Module header
+    PExp (src/Language/Haskell/Exts/ParseSyntax.hs:11)
+    PFieldUpdate (src/Language/Haskell/Exts/ParseSyntax.hs:109)
+    ParseXAttr (src/Language/Haskell/Exts/ParseSyntax.hs:115)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:118)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:255)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:263)
+    p_unit_con (src/Language/Haskell/Exts/ParseSyntax.hs:267)
+    p_tuple_con (src/Language/Haskell/Exts/ParseSyntax.hs:270)
+    p_unboxed_singleton_con (src/Language/Haskell/Exts/ParseSyntax.hs:273)
+    PContext (src/Language/Haskell/Exts/ParseSyntax.hs:276)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:282)
+    PType (src/Language/Haskell/Exts/ParseSyntax.hs:290)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:311)
+    PAsst (src/Language/Haskell/Exts/ParseSyntax.hs:345)
+     (src/Language/Haskell/Exts/ParseSyntax.hs:354)
+    unit_tycon (src/Language/Haskell/Exts/ParseSyntax.hs:371)
+    fun_tycon (src/Language/Haskell/Exts/ParseSyntax.hs:371)
+    list_tycon (src/Language/Haskell/Exts/ParseSyntax.hs:371)
+    unboxed_singleton_tycon (src/Language/Haskell/Exts/ParseSyntax.hs:371)
+    tuple_tycon (src/Language/Haskell/Exts/ParseSyntax.hs:377)
+ 100% ( 49 / 49) in 'Language.Haskell.Exts.Annotated.Build'
+  73% ( 19 / 26) in 'Language.Haskell.Exts.SrcLoc'
+  Missing documentation for:
+     (src/Language/Haskell/Exts/SrcLoc.hs:29)
+    noLoc (src/Language/Haskell/Exts/SrcLoc.hs:34)
+     (src/Language/Haskell/Exts/SrcLoc.hs:47)
+    spanSize (src/Language/Haskell/Exts/SrcLoc.hs:82)
+     (src/Language/Haskell/Exts/SrcLoc.hs:154)
+     (src/Language/Haskell/Exts/SrcLoc.hs:161)
+     (src/Language/Haskell/Exts/SrcLoc.hs:168)
+  67% (  2 /  3) in 'Language.Haskell.Exts.Comments'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Language.Haskell.Exts.Annotated.ExactPrint'
+  Missing documentation for:
+    ExactP (src/Language/Haskell/Exts/Annotated/ExactPrint.hs:212)
+  65% ( 13 / 20) in 'Language.Haskell.Exts.Extension'
+  Missing documentation for:
+    Language (src/Language/Haskell/Exts/Extension.hs:81)
+    knownLanguages (src/Language/Haskell/Exts/Extension.hs:100)
+    classifyLanguage (src/Language/Haskell/Exts/Extension.hs:103)
+    prettyLanguage (src/Language/Haskell/Exts/Extension.hs:109)
+    KnownExtension (src/Language/Haskell/Exts/Extension.hs:130)
+    ghcDefault (src/Language/Haskell/Exts/Extension.hs:586)
+    toExtensionList (src/Language/Haskell/Exts/Extension.hs:665)
+  14% (  1 /  7) in 'Language.Haskell.Exts.ExtScheme'
+  Missing documentation for:
+    ExtScheme (src/Language/Haskell/Exts/ExtScheme.hs:20)
+    MExtScheme (src/Language/Haskell/Exts/ExtScheme.hs:23)
+    Enabled (src/Language/Haskell/Exts/ExtScheme.hs:25)
+     (src/Language/Haskell/Exts/ExtScheme.hs:28)
+     (src/Language/Haskell/Exts/ExtScheme.hs:31)
+     (src/Language/Haskell/Exts/ExtScheme.hs:35)
+  67% ( 86 /128) in 'Language.Haskell.Exts.Syntax'
+  Missing documentation for:
+    Promoted (src/Language/Haskell/Exts/Syntax.hs:429)
+    prelude_mod (src/Language/Haskell/Exts/Syntax.hs:769)
+    main_mod (src/Language/Haskell/Exts/Syntax.hs:769)
+    main_name (src/Language/Haskell/Exts/Syntax.hs:773)
+    unit_con_name (src/Language/Haskell/Exts/Syntax.hs:776)
+    tuple_con_name (src/Language/Haskell/Exts/Syntax.hs:779)
+    list_cons_name (src/Language/Haskell/Exts/Syntax.hs:782)
+    unboxed_singleton_con_name (src/Language/Haskell/Exts/Syntax.hs:785)
+    unit_con (src/Language/Haskell/Exts/Syntax.hs:788)
+    tuple_con (src/Language/Haskell/Exts/Syntax.hs:791)
+    unboxed_singleton_con (src/Language/Haskell/Exts/Syntax.hs:794)
+    as_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    qualified_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    hiding_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    minus_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    bang_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    dot_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    star_name (src/Language/Haskell/Exts/Syntax.hs:797)
+    export_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    safe_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    unsafe_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    interruptible_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    threadsafe_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    stdcall_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    ccall_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    cplusplus_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    dotnet_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    jvm_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    js_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    capi_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    forall_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    family_name (src/Language/Haskell/Exts/Syntax.hs:806)
+    unit_tycon_name (src/Language/Haskell/Exts/Syntax.hs:824)
+    fun_tycon_name (src/Language/Haskell/Exts/Syntax.hs:824)
+    list_tycon_name (src/Language/Haskell/Exts/Syntax.hs:824)
+    tuple_tycon_name (src/Language/Haskell/Exts/
+src/Language/Haskell/Exts/ParseMonad.hs:43:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Exts/ParseMonad.hs:45:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Language/Haskell/Exts/Pretty.hs:35:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Exts/ParseUtils.hs:86:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Syntax.hs:830)
+    unboxed_singleton_tycon_name (src/Language/Haskell/Exts/Syntax.hs:824)
+    unit_tycon (src/Language/Haskell/Exts/Syntax.hs:833)
+    fun_tycon (src/Language/Haskell/Exts/Syntax.hs:833)
+    list_tycon (src/Language/Haskell/Exts/Syntax.hs:833)
+    tuple_tycon (src/Language/Haskell/Exts/Syntax.hs:839)
+    unboxed_singleton_tycon (src/Language/Haskell/Exts/Syntax.hs:833)
+ 100% ( 49 / 49) in 'Language.Haskell.Exts.Build'
+  77% ( 10 / 13) in 'Language.Haskell.Exts.Fixity'
+  Missing documentation for:
+    infix_ (src/Language/Haskell/Exts/Fixity.hs:168)
+    infixl_ (src/Language/Haskell/Exts/Fixity.hs:168)
+    infixr_ (src/Language/Haskell/Exts/Fixity.hs:168)
+  33% ( 16 / 48) in 'Language.Haskell.Exts.ParseMonad'
+  Missing documentation for:
+    atSrcLoc (src/Language/Haskell/Exts/ParseMonad.hs:216)
+    LexContext (src/Language/Haskell/Exts/ParseMonad.hs:88)
+    runParserWithMode (src/Language/Haskell/Exts/ParseMonad.hs:172)
+    runParserWithModeComments (src/Language/Haskell/Exts/ParseMonad.hs:187)
+    runParser (src/Language/Haskell/Exts/ParseMonad.hs:184)
+    getSrcLoc (src/Language/Haskell/Exts/ParseMonad.hs:219)
+    pushCurrentContext (src/Language/Haskell/Exts/ParseMonad.hs:243)
+    popContext (src/Language/Haskell/Exts/ParseMonad.hs:261)
+    getExtensions (src/Language/Haskell/Exts/ParseMonad.hs:282)
+    Lex (src/Language/Haskell/Exts/ParseMonad.hs:300)
+    getInput (src/Language/Haskell/Exts/ParseMonad.hs:317)
+    lexWhile (src/Language/Haskell/Exts/ParseMonad.hs:346)
+    alternative (src/Language/Haskell/Exts/ParseMonad.hs:359)
+    checkBOL (src/Language/Haskell/Exts/ParseMonad.hs:379)
+    setBOL (src/Language/Haskell/Exts/ParseMonad.hs:384)
+    startToken (src/Language/Haskell/Exts/ParseMonad.hs:389)
+    getOffside (src/Language/Haskell/Exts/ParseMonad.hs:403)
+    pushContextL (src/Language/Haskell/Exts/ParseMonad.hs:415)
+    popContextL (src/Language/Haskell/Exts/ParseMonad.hs:419)
+    getExtensionsL (src/Language/Haskell/Exts/ParseMonad.hs:455)
+    pushComment (src/Language/Haskell/Exts/ParseMonad.hs:489)
+    getSrcLocL (src/Language/Haskell/Exts/ParseMonad.hs:407)
+    setSrcLineL (src/Language/Haskell/Exts/ParseMonad.hs:411)
+    ignoreLinePragmasL (src/Language/Haskell/Exts/ParseMonad.hs:478)
+    setLineFilenameL (src/Language/Haskell/Exts/ParseMonad.hs:483)
+    ExtContext (src/Language/Haskell/Exts/ParseMonad.hs:91)
+    pushExtContextL (src/Language/Haskell/Exts/ParseMonad.hs:443)
+    popExtContextL (src/Language/Haskell/Exts/ParseMonad.hs:447)
+    getExtContext (src/Language/Haskell/Exts/ParseMonad.hs:436)
+    pullCtxtFlag (src/Language/Haskell/Exts/ParseMonad.hs:424)
+    flagDo (src/Language/Haskell/Exts/ParseMonad.hs:429)
+    getModuleName (src/Language/Haskell/Exts/ParseMonad.hs:222)
+  20% (  1 /  5) in 'Language.Haskell.Exts.InternalLexer'
+  Missing documentation for:
+    Token (src/Language/Haskell/Exts/InternalLexer.hs:37)
+    showToken (src/Language/Haskell/Exts/InternalLexer.hs:1235)
+    lexer (src/Language/Haskell/Exts/InternalLexer.hs:358)
+    topLexer (src/Language/Haskell/Exts/InternalLexer.hs:361)
+  67% (  4 /  6) in 'Language.Haskell.Exts.Lexer'
+  Missing documentation for:
+    Token (src/Language/Haskell/Exts/InternalLexer.hs:37)
+    showToken (src/Language/Haskell/Exts/InternalLexer.hs:1235)
+   4% (  3 / 71) in 'Language.Haskell.Exts.Annotated.Simplify'
+  Missing documentation for:
+    sTypeEqn (src/Language/Haskell/Exts/Annotated/Simplify.hs:122)
+    sAnnotation (src/Language/Haskell/Exts/Annotated/Simplify.hs:125)
+    sBooleanFormula (src/Language/Haskell/Exts/Annotated/Simplify.hs:131)
+    sModuleName (src/Language/Haskell/Exts/Annotated/Simplify.hs:138)
+    sSpecialCon (src/Language/Haskell/Exts/Annotated/Simplify.hs:141)
+    sQName (src/Language/Haskell/Exts/Annotated/Simplify.hs:150)
+    sName (src/Language/Haskell/Exts/Annotated/Simplify.hs:156)
+    sIPName (src/Language/Haskell/Exts/Annotated/Simplify.hs:160)
+    sQOp (src/Language/Haskell/Exts/Annotated/Simplify.hs:164)
+    sOp (src/Language/Haskell/Exts/Annotated/Simplify.hs:168)
+    sCName (src/Language/Haskell/Exts/Annotated/Simplify.hs:172)
+    sModuleHead (src/Language/Haskell/Exts/Annotated/Simplify.hs:176)
+    sExportSpecList (src/Language/Haskell/Exts/Annotated/Simplify.hs:181)
+    sExportSpec (src/Language/Haskell/Exts/Annotated/Simplify.hs:184)
+    sImportDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:192)
+    sImportSpecList (src/Language/Haskell/Exts/Annotated/Simplify.hs:196)
+    sNamespace (src/Language/Haskell/Exts/Annotated/Simplify.hs:199)
+    sImportSpec (src/Language/Haskell/Exts/Annotated/Simplify.hs:204)
+    sAssoc (src/Language/Haskell/Exts/Annotated/Simplify.hs:211)
+    sDeclHead (src/Language/Haskell/Exts/Annotated/Simplify.hs:217)
+    sInstRule (src/Language/Haskell/Exts/Annotated/Simplify.hs:226)
+    sInstHead (src/Language/Haskell/Exts/Annotated/Simplify.hs:233)
+    sDataOrNew (src/Language/Haskell/Exts/Annotated/Simplify.hs:242)
+    sDeriving (src/Language/Haskell/Exts/Annotated/Simplify.hs:246)
+    sBinds (src/Language/Haskell/Exts/Annotated/Simplify.hs:249)
+    sIPBind (src/Language/Haskell/Exts/Annotated/Simplify.hs:254)
+    sMatch (src/Language/Haskell/Exts/Annotated/Simplify.hs:257)
+    sQualConDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:263)
+    sConDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:267)
+    sFieldDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:273)
+    sGadtDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:276)
+    sClassDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:279)
+    sRecFields (src/Language/Haskell/Exts/Annotated/Simplify.hs:293)
+    sInstDecl (src/Language/Haskell/Exts/Annotated/Simplify.hs:296)
+    sBangType (src/Language/Haskell/Exts/Annotated/Simplify.hs:306)
+    sRhs (src/Language/Haskell/Exts/Annotated/Simplify.hs:311)
+    sGuardedRhs (src/Language/Haskell/Exts/Annotated/Simplify.hs:315)
+    sType (src/Language/Haskell/Exts/Annotated/Simplify.hs:318)
+    sPromoted (src/Language/Haskell/Exts/Annotated/Simplify.hs:336)
+    sTyVarBind (src/Language/Haskell/Exts/Annotated/Simplify.hs:346)
+    sKind (src/Language/Haskell/Exts/Annotated/Simplify.hs:350)
+    sFunDep (src/Language/Haskell/Exts/Annotated/Simplify.hs:361)
+    sContext (src/Language/Haskell/Exts/Annotated/Simplify.hs:364)
+    sAsst (src/Language/Haskell/Exts/Annotated/Simplify.hs:370)
+    sLiteral (src/Language/Haskell/Exts/Annotated/Simplify.hs:379)
+    sSign (src/Language/Haskell/Exts/Annotated/Simplify.hs:392)
+    sExp (src/Language/Haskell/Exts/Annotated/Simplify.hs:397)
+    sXName (src/Language/Haskell/Exts/Annotated/Simplify.hs:453)
+    sXAttr (src/Language/Haskell/Exts/Annotated/Simplify.hs:457)
+    sBracket (src/Language/Haskell/Exts/Annotated/Simplify.hs:460)
+    sSplice (src/Language/Haskell/Exts/Annotated/Simplify.hs:467)
+    sSafety (src/Language/Haskell/Exts/Annotated/Simplify.hs:471)
+    sCallConv (src/Language/Haskell/Exts/Annotated/Simplify.hs:476)
+    sModulePragma (src/Language/Haskell/Exts/Annotated/Simplify.hs:485)
+    sOverlap (src/Language/Haskell/Exts/Annotated/Simplify.hs:491)
+    sActivation (src/Language/Haskell/Exts/Annotated/Simplify.hs:497)
+    sRule (src/Language/Haskell/Exts/Annotated/Simplify.hs:502)
+    sRuleVar (src/Language/Haskell/Exts/Annotated/Simplify.hs:506)
+    sWarningText (src/Language/Haskell/Exts/Annotated/Simplify.hs:510)
+    sPat (src/Language/Haskell/Exts/Annotated/Simplify.hs:514)
+    sPXAttr (src/Language/Haskell/Exts/Annotated/Simplify.hs:539)
+    sRPatOp (src/Language/Haskell/Exts/Annotated/Simplify.hs:542)
+    sRPat (src/Language/Haskell/Exts/Annotated/Simplify.hs:551)
+    sPatField (src/Language/Haskell/Exts/Annotated/Simplify.hs:562)
+    sStmt (src/Language/Haskell/Exts/Annotated/Simplify.hs:568)
+    sQualStmt (src/Language/Haskell/Exts/Annotated/Simplify.hs:575)
+    sFieldUpdate (src/Language/Haskell/Exts/Annotated/Simplify.hs:584)
+    sAlt (src/Language/Haskell/Exts/Annotated/Simplify.hs:590)
+  93% ( 14 / 15) in 'Language.Haskell.Exts.Pretty'
+  Missing documentation for:
+    Indent (src/Language/Haskell/Exts/Pretty.hs:49)
+   4% (  2 / 52) in 'Language.Haskell.Exts.ParseUtils'
+  Missing documentation for:
+    splitTyConApp (src/Language/Haskell/Exts/ParseUtils.hs:93)
+    checkEnabled (src/Language/Haskell/Exts/ParseUtils.hs:108)
+    checkEnabledOneOf (src/Language/Haskell/Exts/ParseUtils.hs:113)
+    checkToplevel (src/Language/Haskell/Exts/ParseUtils.hs:123)
+    checkPatternGuards (src/Language/Haskell/Exts/ParseUtils.hs:119)
+    mkRecConstrOrUpdate (src/Language/Haskell/Exts/ParseUtils.hs:891)
+    checkPrec (src/Language/Haskell/Exts/ParseUtils.hs:887)
+    checkPContext (src/Language/Haskell/Exts/ParseUtils.hs:138)
+    checkContext (src/Language/Haskell/Exts/ParseUtils.hs:230)
+    checkAssertion (src/Language/Haskell/Exts/ParseUtils.hs:172)
+    checkDataHeader (src/Language/Haskell/Exts/ParseUtils.hs:277)
+    checkClassHeader (src/Language/Haskell/Exts/ParseUtils.hs:286)
+    checkInstHeader (src/Language/Haskell/Exts/ParseUtils.hs:334)
+    checkDeriving (src/Language/Haskell/Exts/ParseUtils.hs:363)
+    checkPattern (src/Language/Haskell/Exts/ParseUtils.hs:372)
+    checkExpr (src/Language/Haskell/Exts/ParseUtils.hs:608)
+    checkType (src/Language/Haskell/Exts/ParseUtils.hs:1005)
+    checkKind (src/Language/Haskell/Exts/ParseUtils.hs:1059)
+    checkValDef (src/Language/Haskell/Exts/ParseUtils.hs:774)
+    checkClassBody (src/Language/Haskell/Exts/ParseUtils.hs:828)
+    checkInstBody (src/Language/Haskell/Exts/ParseUtils.hs:835)
+    checkUnQual (src/Language/Haskell/Exts/ParseUtils.hs:860)
+    checkQualOrUnQual (src/Language/Haskell/Exts/ParseUtils.hs:865)
+    checkRevDecls (src/Language/Haskell/Exts/ParseUtils.hs:905)
+    checkRevClsDecls (src/Language/Haskell/Exts/ParseUtils.hs:929)
+    checkRevInstDecls (src/Language/Haskell/Exts/ParseUtils.hs:953)
+    checkDataOrNew (src/Language/Haskell/Exts/ParseUtils.hs:982)
+    checkDataOrNewG (src/Language/Haskell/Exts/ParseUtils.hs:990)
+    checkSimpleType (src/Language/Haskell/Exts/ParseUtils.hs:995)
+    checkSigVar (src/Language/Haskell/Exts/ParseUtils.hs:821)
+    checkDefSigDef (src/Language/Haskell/Exts/ParseUtils.hs:848)
+    getGConName (src/Language/Haskell/Exts/ParseUtils.hs:766)
+    mkTyForall (src/Language/Haskell/Exts/ParseUtils.hs:1102)
+    checkRPattern (src/Language/Haskell/Exts/ParseUtils.hs:526)
+    checkEqNames (src/Language/Haskell/Exts/ParseUtils.hs:872)
+    checkPageModule (src/Language/Haskell/Exts/ParseUtils.hs:1071)
+    checkHybridModule (src/Language/Haskell/Exts/ParseUtils.hs:1080)
+    mkDVar (src/Language/Haskell/Exts/ParseUtils.hs:1094)
+    checkRuleExpr (src/Language/Haskell/Exts/ParseUtils.hs:748)
+    readTool (src/Language/Haskell/Exts/ParseUtils.hs:751)
+    updateQNameLoc (src/Language/Haskell/Exts/ParseUtils.hs:896)
+    PExp (src/Language/Haskell/Exts/ParseSyntax.hs:11)
+    PFieldUpdate (src/Language/Haskell/Exts/ParseSyntax.hs:109)
+    ParseXAttr (src/Language/Haskell/Exts/ParseSyntax.hs:115)
+    PType (src/Language/Haskell/Exts/ParseSyntax.hs:290)
+    PContext (src/Language/Haskell/Exts/ParseSyntax.hs:276)
+    PAsst (src/Language/Haskell/Exts/ParseSyntax.hs:345)
+    p_unit_con (src/Language/Haskell/Exts/ParseSyntax.hs:267)
+    p_tuple_con (src/Language/Haskell/Exts/ParseSyntax.hs:270)
+    p_unboxed_singleton_con (src/Language/Haskell/Exts/ParseSyntax.hs:273)
+  75% (  9 / 12) in 'Language.Haskell.Exts.Annotated.Fixity'
+  Missing documentation for:
+    infix_ (src/Language/Haskell/Exts/Fixity.hs:168)
+    infixl_ (src/Language/Haskell/Exts/Fixity.hs:168)
+    infixr_ (src/Language/Haskell/Exts/Fixity.hs:168)
+ 100% ( 37 / 37) in 'Language.Haskell.Exts.InternalParser'
+  97% ( 33 / 34) in 'Language.Haskell.Exts.Parser'
+  Missing documentation for:
+    getTopPragmas (src/Language/Haskell/Exts/Parser.hs:51)
+  95% ( 40 / 42) in 'Language.Haskell.Exts.Annotated'
+  Missing documentation for:
+    parseFileWithComments (src/Language/Haskell/Exts/Annotated.hs:81)
+    parseFileContentsWithComments (src/Language/Haskell/Exts/Annotated.hs:106)
+ 100% ( 23 / 23) in 'Language.Haskell.Exts'
+Warning: Language.Haskell.Exts.Annotated.ExactPrint: could not find link destinations for:
+    exactP
+Warning: Language.Haskell.Exts.Pretty: could not find link destinations for:
+    D1Style C1_0Style S1_0_0Style S1_0_1Style S1_0_2Style D1Mode C1_0Mode C1_1Mode C1_2Mode C1_3Mode
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/haskell-src-exts/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-haskell-src-exts-1.16.011633137291122721015.1
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/haskell-src-exts-1.16.0.1-2mzIFu6itP1JzQr9p1IAHT
+Registering haskell-src-exts-1.16.0.1...

@@ -1,0 +1,3 @@
+ghc-mod -any
+hlint -any
+stylish-haskell -any

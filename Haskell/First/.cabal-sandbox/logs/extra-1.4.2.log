@@ -1,0 +1,62 @@
+Configuring extra-1.4.2...
+Building extra-1.4.2...
+Preprocessing library extra-1.4.2...
+[ 1 of 15] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Info/Extra.o )
+[ 2 of 15] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Environment/Extra.o )
+[ 3 of 15] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Numeric/Extra.o )
+[ 4 of 15] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Tuple/Extra.o )
+[ 5 of 15] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/List/Extra.o )
+[ 6 of 15] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/IORef/Extra.o )
+[ 7 of 15] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Either/Extra.o )
+[ 8 of 15] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Extra.o )
+[ 9 of 15] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Directory/Extra.o )
+[10 of 15] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Exception/Extra.o )
+[11 of 15] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Time/Extra.o )
+[12 of 15] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Concurrent/Extra.o )
+[13 of 15] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Extra.o )
+[14 of 15] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Process/Extra.o )
+[15 of 15] Compiling Extra            ( src/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Extra.o )
+[ 1 of 15] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Info/Extra.p_o )
+[ 2 of 15] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Environment/Extra.p_o )
+[ 3 of 15] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Numeric/Extra.p_o )
+[ 4 of 15] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Tuple/Extra.p_o )
+[ 5 of 15] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/List/Extra.p_o )
+[ 6 of 15] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/IORef/Extra.p_o )
+[ 7 of 15] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Either/Extra.p_o )
+[ 8 of 15] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Extra.p_o )
+[ 9 of 15] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Directory/Extra.p_o )
+[10 of 15] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Exception/Extra.p_o )
+[11 of 15] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Time/Extra.p_o )
+[12 of 15] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Concurrent/Extra.p_o )
+[13 of 15] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Extra.p_o )
+[14 of 15] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/System/Process/Extra.p_o )
+[15 of 15] Compiling Extra            ( src/Extra.hs, dist/dist-sandbox-5bf6cc0d/build/Extra.p_o )
+In-place registering extra-1.4.2...
+Running Haddock for extra-1.4.2...
+Preprocessing library extra-1.4.2...
+Haddock coverage:
+ 100% (  3 /  3) in 'System.Info.Extra'
+ 100% (  4 /  4) in 'System.Environment.Extra'
+ 100% (  7 /  7) in 'Numeric.Extra'
+ 100% ( 14 / 14) in 'Data.Tuple.Extra'
+ 100% ( 56 / 56) in 'Data.List.Extra'
+  86% (  6 /  7) in 'Data.IORef.Extra'
+  Missing documentation for:
+    Module header
+  86% (  6 /  7) in 'Data.Either.Extra'
+  Missing documentation for:
+    Module header
+ 100% ( 25 / 25) in 'Control.Monad.Extra'
+ 100% (  8 /  8) in 'System.Directory.Extra'
+ 100% ( 18 / 18) in 'Control.Exception.Extra'
+ 100% (  9 /  9) in 'System.Time.Extra'
+ 100% ( 26 / 26) in 'Control.Concurrent.Extra'
+ 100% ( 22 / 22) in 'System.IO.Extra'
+ 100% (  5 /  5) in 'System.Process.Extra'
+ 100% (195 /195) in 'Extra'
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/extra/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-extra-1.41073185695316824712.2
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/extra-1.4.2-5OxQCVeoy8KDx9eBZEd38j
+Registering extra-1.4.2...

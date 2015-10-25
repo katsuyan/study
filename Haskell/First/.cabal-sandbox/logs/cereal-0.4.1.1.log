@@ -1,0 +1,200 @@
+Configuring cereal-0.4.1.1...
+Building cereal-0.4.1.1...
+Preprocessing library cereal-0.4.1.1...
+[1 of 5] Compiling Data.Serialize.Builder ( src/Data/Serialize/Builder.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Builder.o )
+
+src/Data/Serialize/Builder.hs:59:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Builder.hs:197:40: Warning:
+    In the use of ‘S.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[2 of 5] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Put.o )
+
+src/Data/Serialize/Put.hs:70:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Put.hs:72:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Put.hs:73:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+[3 of 5] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Get.o )
+
+src/Data/Serialize/Get.hs:89:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Get.hs:90:1: Warning:
+    The import of ‘MonadPlus, when, liftM2, ap’
+    from module ‘Control.Monad’ is redundant
+
+src/Data/Serialize/Get.hs:456:13: Warning:
+    In the use of ‘B.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[4 of 5] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/IEEE754.o )
+
+src/Data/Serialize/IEEE754.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[5 of 5] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize.o )
+
+src/Data/Serialize.hs:68:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[1 of 5] Compiling Data.Serialize.Builder ( src/Data/Serialize/Builder.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Builder.p_o )
+
+src/Data/Serialize/Builder.hs:59:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Builder.hs:197:40: Warning:
+    In the use of ‘S.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[2 of 5] Compiling Data.Serialize.Put ( src/Data/Serialize/Put.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Put.p_o )
+
+src/Data/Serialize/Put.hs:70:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Put.hs:72:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Put.hs:73:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+[3 of 5] Compiling Data.Serialize.Get ( src/Data/Serialize/Get.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/Get.p_o )
+
+src/Data/Serialize/Get.hs:89:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Get.hs:90:1: Warning:
+    The import of ‘MonadPlus, when, liftM2, ap’
+    from module ‘Control.Monad’ is redundant
+
+src/Data/Serialize/Get.hs:456:13: Warning:
+    In the use of ‘B.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+[4 of 5] Compiling Data.Serialize.IEEE754 ( src/Data/Serialize/IEEE754.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize/IEEE754.p_o )
+
+src/Data/Serialize/IEEE754.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[5 of 5] Compiling Data.Serialize   ( src/Data/Serialize.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Serialize.p_o )
+
+src/Data/Serialize.hs:68:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+In-place registering cereal-0.4.1.1...
+Running Haddock for cereal-0.4.1.1...
+Preprocessing library cereal-0.4.1.1...
+
+src/Data/Serialize/Builder.hs:59:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Builder.hs:197:40: Warning:
+    In the use of ‘S.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+
+src/Data/Serialize/Put.hs:70:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Put.hs:72:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Data/Serialize/Put.hs:73:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Data/Serialize/Get.hs:89:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize/Get.hs:90:1: Warning:
+    The import of ‘ap, liftM2, when, MonadPlus’
+    from module ‘Control.Monad’ is redundant
+
+src/Data/Serialize/Get.hs:456:13: Warning:
+    In the use of ‘B.inlinePerformIO’
+    (imported from Data.ByteString.Internal):
+    Deprecated: "If you think you know what you are doing, use 'unsafePerformIO'. If you are sure you know what you are doing, use 'unsafeDupablePerformIO'. If you enjoy sharing an address space with a malevolent agent of chaos, try 'accursedUnutterablePerformIO'."
+
+src/Data/Serialize/IEEE754.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Serialize.hs:68:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Haddock coverage:
+  96% ( 26 / 27) in 'Data.Serialize.Builder'
+  Missing documentation for:
+    toByteString (src/Data/Serialize/Builder.hs:161)
+  69% ( 29 / 42) in 'Data.Serialize.Put'
+  Missing documentation for:
+    Putter (src/Data/Serialize/Put.hs:99)
+    putBuilder (src/Data/Serialize/Put.hs:137)
+    putTwoOf (src/Data/Serialize/Put.hs:261)
+    putListOf (src/Data/Serialize/Put.hs:265)
+    putIArrayOf (src/Data/Serialize/Put.hs:269)
+    putSeqOf (src/Data/Serialize/Put.hs:275)
+    putTreeOf (src/Data/Serialize/Put.hs:281)
+    putMapOf (src/Data/Serialize/Put.hs:288)
+    putIntMapOf (src/Data/Serialize/Put.hs:292)
+    putSetOf (src/Data/Serialize/Put.hs:296)
+    putIntSetOf (src/Data/Serialize/Put.hs:300)
+    putMaybeOf (src/Data/Serialize/Put.hs:304)
+    putEitherOf (src/Data/Serialize/Put.hs:309)
+  94% ( 50 / 53) in 'Data.Serialize.Get'
+  Missing documentation for:
+    label (src/Data/Serialize/Get.hs:215)
+    getLazyByteString (src/Data/Serialize/Get.hs:424)
+    getTwoOf (src/Data/Serialize/Get.hs:577)
+ 100% ( 11 / 11) in 'Data.Serialize.IEEE754'
+Cannot find documentation for: $example
+ 100% ( 12 / 12) in 'Data.Serialize'
+Warning: Data.Serialize.Put: could not find link destinations for:
+    PairS
+Warning: Data.Serialize.Get: could not find link destinations for:
+    get
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/cereal/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-cereal-0.4.11534827968280090412.1
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/cereal-0.4.1.1-LMaR4P6lFvNJtmY00msKYH
+Registering cereal-0.4.1.1...

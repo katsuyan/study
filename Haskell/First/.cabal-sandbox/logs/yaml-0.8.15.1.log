@@ -1,0 +1,354 @@
+Configuring yaml-0.8.15.1...
+Building yaml-0.8.15.1...
+Preprocessing library yaml-0.8.15.1...
+[1 of 8] Compiling Text.Libyaml     ( Text/Libyaml.hs, dist/dist-sandbox-5bf6cc0d/build/Text/Libyaml.o )
+
+Text/Libyaml.hs:52:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 8] Compiling Data.Yaml.Internal ( Data/Yaml/Internal.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Internal.o )
+
+Data/Yaml/Internal.hs:30:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[3 of 8] Compiling Data.Yaml        ( Data/Yaml.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml.o )
+[4 of 8] Compiling Data.Yaml.Aeson  ( Data/Yaml/Aeson.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Aeson.o )
+[5 of 8] Compiling Data.Yaml.Builder ( Data/Yaml/Builder.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Builder.o )
+[6 of 8] Compiling Data.Yaml.Pretty ( Data/Yaml/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Pretty.o )
+[7 of 8] Compiling Data.Yaml.Parser ( Data/Yaml/Parser.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Parser.o )
+
+Data/Yaml/Parser.hs:9:1: Warning:
+    The import of ‘Applicative, <$>’
+    from module ‘Control.Applicative’ is redundant
+
+Data/Yaml/Parser.hs:10:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[8 of 8] Compiling Data.Yaml.Include ( Data/Yaml/Include.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Include.o )
+[1 of 8] Compiling Text.Libyaml     ( Text/Libyaml.hs, dist/dist-sandbox-5bf6cc0d/build/Text/Libyaml.p_o )
+
+Text/Libyaml.hs:52:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[2 of 8] Compiling Data.Yaml.Internal ( Data/Yaml/Internal.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Internal.p_o )
+
+Data/Yaml/Internal.hs:30:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[3 of 8] Compiling Data.Yaml        ( Data/Yaml.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml.p_o )
+[4 of 8] Compiling Data.Yaml.Aeson  ( Data/Yaml/Aeson.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Aeson.p_o )
+[5 of 8] Compiling Data.Yaml.Builder ( Data/Yaml/Builder.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Builder.p_o )
+[6 of 8] Compiling Data.Yaml.Pretty ( Data/Yaml/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Pretty.p_o )
+[7 of 8] Compiling Data.Yaml.Parser ( Data/Yaml/Parser.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Parser.p_o )
+
+Data/Yaml/Parser.hs:9:1: Warning:
+    The import of ‘Applicative, <$>’
+    from module ‘Control.Applicative’ is redundant
+
+Data/Yaml/Parser.hs:10:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[8 of 8] Compiling Data.Yaml.Include ( Data/Yaml/Include.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Yaml/Include.p_o )
+
+c/helper.c:19:26:
+     warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^  ~
+
+c/helper.c:19:26:
+     note: use '|' for a bitwise operation
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^~
+                                    |
+
+c/helper.c:24:11:
+     warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    b->buff = tmp;
+                            ^ ~~~
+
+c/helper.c:51:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:56:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->context;
+                   ^~~~~~~~~~
+
+c/helper.c:76:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return e->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:107:12:
+     warning: assigning to 'unsigned char *' from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+            if (!s) s = "";
+                      ^ ~~
+
+c/helper.c:113:16:
+     warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return strlen(get_scalar_tag(e));
+                          ^~~~~~~~~~~~~~~~~
+
+/usr/include/string.h:82:28:
+     note: passing argument to parameter here
+size_t   strlen(const char *);
+                            ^
+
+c/helper.c:146:1:
+     warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+8 warnings generated.
+
+c/helper.c:19:26:
+     warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^  ~
+
+c/helper.c:19:26:
+     note: use '|' for a bitwise operation
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^~
+                                    |
+
+c/helper.c:24:11:
+     warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    b->buff = tmp;
+                            ^ ~~~
+
+c/helper.c:51:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:56:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->context;
+                   ^~~~~~~~~~
+
+c/helper.c:76:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return e->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:107:12:
+     warning: assigning to 'unsigned char *' from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+            if (!s) s = "";
+                      ^ ~~
+
+c/helper.c:113:16:
+     warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return strlen(get_scalar_tag(e));
+                          ^~~~~~~~~~~~~~~~~
+
+/usr/include/string.h:82:28:
+     note: passing argument to parameter here
+size_t   strlen(const char *);
+                            ^
+
+c/helper.c:146:1:
+     warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+8 warnings generated.
+
+c/helper.c:19:26:
+     warning: use of logical '||' with constant operand [-Wconstant-logical-operand]
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^  ~
+
+c/helper.c:19:26:
+     note: use '|' for a bitwise operation
+            for (new_size = b->size || 8; new_size < new_used; new_size *= 2);
+                                    ^~
+                                    |
+
+c/helper.c:24:11:
+     warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                    b->buff = tmp;
+                            ^ ~~~
+
+c/helper.c:51:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:56:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return p->context;
+                   ^~~~~~~~~~
+
+c/helper.c:76:9:
+     warning: returning 'const char *' from a function with result type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return e->problem;
+                   ^~~~~~~~~~
+
+c/helper.c:107:12:
+     warning: assigning to 'unsigned char *' from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+            if (!s) s = "";
+                      ^ ~~
+
+c/helper.c:113:16:
+     warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+            return strlen(get_scalar_tag(e));
+                          ^~~~~~~~~~~~~~~~~
+
+/usr/include/string.h:82:28:
+     note: passing argument to parameter here
+size_t   strlen(const char *);
+                            ^
+
+c/helper.c:146:1:
+     warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+8 warnings generated.
+
+libyaml/api.c:837:34:
+     warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!value && !length) value = "";
+                                     ^ ~~
+1 warning generated.
+
+libyaml/api.c:837:34:
+     warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!value && !length) value = "";
+                                     ^ ~~
+1 warning generated.
+
+libyaml/api.c:837:34:
+     warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char [1]' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!value && !length) value = "";
+                                     ^ ~~
+1 warning generated.
+In-place registering yaml-0.8.15.1...
+Preprocessing executable 'yaml2json' for yaml-0.8.15.1...
+[1 of 1] Compiling Main             ( exe/yaml2json.hs, dist/dist-sandbox-5bf6cc0d/build/yaml2json/yaml2json-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/yaml2json/yaml2json ...
+Preprocessing executable 'json2yaml' for yaml-0.8.15.1...
+[1 of 1] Compiling Main             ( exe/json2yaml.hs, dist/dist-sandbox-5bf6cc0d/build/json2yaml/json2yaml-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/json2yaml/json2yaml ...
+Running Haddock for yaml-0.8.15.1...
+Preprocessing library yaml-0.8.15.1...
+
+Text/Libyaml.hs:52:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Data/Yaml/Internal.hs:30:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Data/Yaml/Parser.hs:9:1: Warning:
+    The import of ‘Applicative, <$>’
+    from module ‘Control.Applicative’ is redundant
+
+Data/Yaml/Parser.hs:10:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Haddock coverage:
+  33% (  5 / 15) in 'Text.Libyaml'
+  Missing documentation for:
+    Event (Text/Libyaml.hs:57)
+    Style (Text/Libyaml.hs:70)
+    Tag (Text/Libyaml.hs:79)
+    AnchorName (Text/Libyaml.hs:91)
+    Anchor (Text/Libyaml.hs:92)
+    encode (Text/Libyaml.hs:572)
+    decode (Text/Libyaml.hs:478)
+    encodeFile (Text/Libyaml.hs:592)
+    decodeFile (Text/Libyaml.hs:507)
+    YamlException (Text/Libyaml.hs:655)
+  25% (  2 /  8) in 'Data.Yaml.Internal'
+  Missing documentation for:
+    Module header
+    ParseException (Data/Yaml/Internal.hs:49)
+    parse (Data/Yaml/Internal.hs:136)
+    decodeHelper (Data/Yaml/Internal.hs:249)
+    decodeHelper_ (Data/Yaml/Internal.hs:261)
+    isNumeric (Data/Yaml/Internal.hs:281)
+  69% ( 24 / 35) in 'Data.Yaml'
+  Missing documentation for:
+    ParseException (Data/Yaml/Internal.hs:49)
+    YamlException (Text/Libyaml.hs:655)
+    array (Data/Yaml.hs:180)
+    .=
+    parseMonad (Data/Yaml.hs:183)
+    encode (Data/Yaml.hs:86)
+    encodeFile (Data/Yaml.hs:91)
+    decode (Data/Yaml.hs:145)
+    decodeFile (Data/Yaml.hs:152)
+    decodeEither (Data/Yaml.hs:166)
+    decodeHelper (Data/Yaml/Internal.hs:249)
+ 100% (  2 /  2) in 'Data.Yaml.Aeson'
+   8% (  1 / 13) in 'Data.Yaml.Builder'
+  Missing documentation for:
+    YamlBuilder (Data/Yaml/Builder.hs:49)
+    ToYaml (Data/Yaml/Builder.hs:51)
+    mapping (Data/Yaml/Builder.hs:64)
+    array (Data/Yaml/Builder.hs:72)
+    string (Data/Yaml/Builder.hs:78)
+    bool (Data/Yaml/Builder.hs:109)
+    null (Data/Yaml/Builder.hs:113)
+    scientific (Data/Yaml/Builder.hs:93)
+    number (Data/Yaml/Builder.hs:102)
+    toByteString (Data/Yaml/Builder.hs:123)
+    writeYamlFile (Data/Yaml/Builder.hs:126)
+    .= (Data/Yaml/Builder.hs:46)
+ 100% (  6 /  6) in 'Data.Yaml.Pretty'
+   3% (  1 / 29) in 'Data.Yaml.Parser'
+  Missing documentation for:
+    YamlParser (Data/Yaml/Parser.hs:30)
+     (Data/Yaml/Parser.hs:33)
+     (Data/Yaml/Parser.hs:35)
+     (Data/Yaml/Parser.hs:38)
+     (Data/Yaml/Parser.hs:41)
+     (Data/Yaml/Parser.hs:44)
+     (Data/Yaml/Parser.hs:51)
+    lookupAnchor (Data/Yaml/Parser.hs:58)
+    withAnchor (Data/Yaml/Parser.hs:61)
+    withMapping (Data/Yaml/Parser.hs:68)
+    withSequence (Data/Yaml/Parser.hs:73)
+    withText (Data/Yaml/Parser.hs:78)
+    typeMismatch (Data/Yaml/Parser.hs:83)
+    FromYaml (Data/Yaml/Parser.hs:98)
+     (Data/Yaml/Parser.hs:100)
+     (Data/Yaml/Parser.hs:102)
+     (Data/Yaml/Parser.hs:104)
+     (Data/Yaml/Parser.hs:106)
+    YamlValue (Data/Yaml/Parser.hs:115)
+    AnchorMap (Data/Yaml/Parser.hs:122)
+    RawDoc (Data/Yaml/Parser.hs:123)
+    parseRawDoc (Data/Yaml/Parser.hs:126)
+    .: (Data/Yaml/Parser.hs:132)
+    YamlParseException (Data/Yaml/Parser.hs:138)
+     (Data/Yaml/Parser.hs:143)
+    sinkValue (Data/Yaml/Parser.hs:145)
+    sinkRawDoc (Data/Yaml/Parser.hs:192)
+    readYamlFile (Data/Yaml/Parser.hs:195)
+  67% (  2 /  3) in 'Data.Yaml.Include'
+  Missing documentation for:
+    Module header
+Warning: Data.Yaml: could not find link destinations for:
+    Parse
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/yaml/index.html
+Preprocessing executable 'yaml2json' for yaml-0.8.15.1...
+Preprocessing executable 'json2yaml' for yaml-0.8.15.1...
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-yaml-0.8.151439025357738342585.1
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/yaml-0.8.15.1-DQOdUJrmqdFB7ZGYSCjYuG
+Installing executable(s) in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/bin
+Registering yaml-0.8.15.1...

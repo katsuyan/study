@@ -1,0 +1,43 @@
+Configuring semigroups-0.17.0.1...
+Building semigroups-0.17.0.1...
+Preprocessing library semigroups-0.17.0.1...
+[1 of 3] Compiling Data.List.NonEmpty ( src/Data/List/NonEmpty.hs, dist/dist-sandbox-5bf6cc0d/build/Data/List/NonEmpty.o )
+[2 of 3] Compiling Data.Semigroup   ( src/Data/Semigroup.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Semigroup.o )
+[3 of 3] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Semigroup/Generic.o )
+[1 of 3] Compiling Data.List.NonEmpty ( src/Data/List/NonEmpty.hs, dist/dist-sandbox-5bf6cc0d/build/Data/List/NonEmpty.p_o )
+[2 of 3] Compiling Data.Semigroup   ( src/Data/Semigroup.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Semigroup.p_o )
+[3 of 3] Compiling Data.Semigroup.Generic ( src/Data/Semigroup/Generic.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Semigroup/Generic.p_o )
+In-place registering semigroups-0.17.0.1...
+Running Haddock for semigroups-0.17.0.1...
+Preprocessing library semigroups-0.17.0.1...
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: nats-1
+Haddock coverage:
+  95% ( 69 / 73) in 'Data.List.NonEmpty'
+  Missing documentation for:
+    NonEmpty (src/Data/List/NonEmpty.hs:177)
+    length (src/Data/List/NonEmpty.hs:222)
+    unfoldr (src/Data/List/NonEmpty.hs:253)
+    xor (src/Data/List/NonEmpty.hs:226)
+  83% ( 25 / 30) in 'Data.Semigroup'
+  Missing documentation for:
+    Semigroup (src/Data/Semigroup.hs:181)
+    Min (src/Data/Semigroup.hs:419)
+    Max (src/Data/Semigroup.hs:504)
+    ArgMin (src/Data/Semigroup.hs:605)
+    ArgMax (src/Data/Semigroup.hs:606)
+  60% (  3 /  5) in 'Data.Semigroup.Generic'
+  Missing documentation for:
+    GSemigroup (src/Data/Semigroup/Generic.hs:39)
+    GMonoid (src/Data/Semigroup/Generic.hs:69)
+Warning: Data.Semigroup: could not find link destinations for:
+    Max Min D1Dual C1_0Dual S1_0_0Dual D1Endo C1_0Endo S1_0_0Endo D1All C1_0All S1_0_0All D1Any C1_0Any S1_0_0Any D1Sum C1_0Sum S1_0_0Sum D1Product C1_0Product S1_0_0Product
+Warning: Data.Semigroup.Generic: could not find link destinations for:
+    gmappend' gmempty'
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/semigroups/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-semigroups-0.17.09671137552124639789.1
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/semigroups-0.17.0.1-7ZJSgZ5CNVm8tWmGAujY46
+Registering semigroups-0.17.0.1...

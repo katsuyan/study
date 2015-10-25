@@ -1,0 +1,39 @@
+Configuring strict-0.3.2...
+Building strict-0.3.2...
+Preprocessing library strict-0.3.2...
+
+Data/Strict/Tuple.hs:17:16: Warning:
+    -fglasgow-exts is deprecated: Use individual extensions instead
+[1 of 5] Compiling System.IO.Strict ( System/IO/Strict.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Strict.o )
+[2 of 5] Compiling Data.Strict.Either ( Data/Strict/Either.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Either.o )
+[3 of 5] Compiling Data.Strict.Maybe ( Data/Strict/Maybe.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Maybe.o )
+[4 of 5] Compiling Data.Strict.Tuple ( Data/Strict/Tuple.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Tuple.o )
+[5 of 5] Compiling Data.Strict      ( Data/Strict.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict.o )
+
+Data/Strict/Tuple.hs:17:16: Warning:
+    -fglasgow-exts is deprecated: Use individual extensions instead
+[1 of 5] Compiling System.IO.Strict ( System/IO/Strict.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Strict.p_o )
+[2 of 5] Compiling Data.Strict.Either ( Data/Strict/Either.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Either.p_o )
+[3 of 5] Compiling Data.Strict.Maybe ( Data/Strict/Maybe.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Maybe.p_o )
+[4 of 5] Compiling Data.Strict.Tuple ( Data/Strict/Tuple.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict/Tuple.p_o )
+[5 of 5] Compiling Data.Strict      ( Data/Strict.hs, dist/dist-sandbox-5bf6cc0d/build/Data/Strict.p_o )
+In-place registering strict-0.3.2...
+Running Haddock for strict-0.3.2...
+Preprocessing library strict-0.3.2...
+
+Data/Strict/Tuple.hs:17:16: Warning:
+    -fglasgow-exts is deprecated: Use individual extensions instead
+Haddock coverage:
+ 100% (  7 /  7) in 'System.IO.Strict'
+ 100% (  7 /  7) in 'Data.Strict.Either'
+ 100% (  7 /  7) in 'Data.Strict.Maybe'
+  86% (  6 /  7) in 'Data.Strict.Tuple'
+  Missing documentation for:
+    :!: (Data/Strict/Tuple.hs:43)
+ 100% (  4 /  4) in 'Data.Strict'
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/strict/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-strict-0.39964979722063936098.2
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/strict-0.3.2-DKYjecaDdpb08wIbtxfizS
+Registering strict-0.3.2...

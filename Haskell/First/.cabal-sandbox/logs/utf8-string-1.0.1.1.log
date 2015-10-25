@@ -1,0 +1,35 @@
+Configuring utf8-string-1.0.1.1...
+Building utf8-string-1.0.1.1...
+Preprocessing library utf8-string-1.0.1.1...
+[1 of 5] Compiling Codec.Binary.UTF8.String ( Codec/Binary/UTF8/String.hs, dist/dist-sandbox-5bf6cc0d/build/Codec/Binary/UTF8/String.o )
+[2 of 5] Compiling Codec.Binary.UTF8.Generic ( Codec/Binary/UTF8/Generic.hs, dist/dist-sandbox-5bf6cc0d/build/Codec/Binary/UTF8/Generic.o )
+[3 of 5] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/String/UTF8.o )
+[4 of 5] Compiling Data.ByteString.Lazy.UTF8 ( Data/ByteString/Lazy/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/ByteString/Lazy/UTF8.o )
+[5 of 5] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/ByteString/UTF8.o )
+[1 of 5] Compiling Codec.Binary.UTF8.String ( Codec/Binary/UTF8/String.hs, dist/dist-sandbox-5bf6cc0d/build/Codec/Binary/UTF8/String.p_o )
+[2 of 5] Compiling Codec.Binary.UTF8.Generic ( Codec/Binary/UTF8/Generic.hs, dist/dist-sandbox-5bf6cc0d/build/Codec/Binary/UTF8/Generic.p_o )
+[3 of 5] Compiling Data.String.UTF8 ( Data/String/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/String/UTF8.p_o )
+[4 of 5] Compiling Data.ByteString.Lazy.UTF8 ( Data/ByteString/Lazy/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/ByteString/Lazy/UTF8.p_o )
+[5 of 5] Compiling Data.ByteString.UTF8 ( Data/ByteString/UTF8.hs, dist/dist-sandbox-5bf6cc0d/build/Data/ByteString/UTF8.p_o )
+In-place registering utf8-string-1.0.1.1...
+Running Haddock for utf8-string-1.0.1.1...
+Preprocessing library utf8-string-1.0.1.1...
+Haddock coverage:
+ 100% (  8 /  8) in 'Codec.Binary.UTF8.String'
+  94% ( 16 / 17) in 'Codec.Binary.UTF8.Generic'
+  Missing documentation for:
+    UTF8Bytes (Codec/Binary/UTF8/Generic.hs:48)
+  89% ( 24 / 27) in 'Data.String.UTF8'
+  Missing documentation for:
+    UTF8Bytes (Codec/Binary/UTF8/Generic.hs:48)
+    fromRep (Data/String/UTF8.hs:59)
+    toRep (Data/String/UTF8.hs:62)
+ 100% ( 17 / 17) in 'Data.ByteString.Lazy.UTF8'
+ 100% ( 17 / 17) in 'Data.ByteString.UTF8'
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/utf8-string/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-utf8-string-1.0.120430460421358796011.1
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/utf8-string-1.0.1.1-HWC8Qen5AZrArJxFQJuE72
+Registering utf8-string-1.0.1.1...

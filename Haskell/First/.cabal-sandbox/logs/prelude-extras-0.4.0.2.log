@@ -1,0 +1,59 @@
+Configuring prelude-extras-0.4.0.2...
+Building prelude-extras-0.4.0.2...
+Preprocessing library prelude-extras-0.4.0.2...
+[1 of 1] Compiling Prelude.Extras   ( src/Prelude/Extras.hs, dist/dist-sandbox-5bf6cc0d/build/Prelude/Extras.o )
+[1 of 1] Compiling Prelude.Extras   ( src/Prelude/Extras.hs, dist/dist-sandbox-5bf6cc0d/build/Prelude/Extras.p_o )
+In-place registering prelude-extras-0.4.0.2...
+Running Haddock for prelude-extras-0.4.0.2...
+Preprocessing library prelude-extras-0.4.0.2...
+Haddock coverage:
+   5% (  2 / 43) in 'Prelude.Extras'
+  Missing documentation for:
+    Module header
+    Eq1 (src/Prelude/Extras.hs:80)
+    /=# (src/Prelude/Extras.hs:87)
+    Ord1 (src/Prelude/Extras.hs:146)
+    <# (src/Prelude/Extras.hs:154)
+    <=# (src/Prelude/Extras.hs:154)
+    >=# (src/Prelude/Extras.hs:154)
+    ># (src/Prelude/Extras.hs:154)
+    max1 (src/Prelude/Extras.hs:155)
+    min1 (src/Prelude/Extras.hs:155)
+    Show1 (src/Prelude/Extras.hs:228)
+    show1 (src/Prelude/Extras.hs:237)
+    shows1 (src/Prelude/Extras.hs:241)
+    Read1 (src/Prelude/Extras.hs:309)
+    read1 (src/Prelude/Extras.hs:327)
+    reads1 (src/Prelude/Extras.hs:330)
+    readPrec1 (src/Prelude/Extras.hs:320)
+    readListPrec1 (src/Prelude/Extras.hs:323)
+    readList1Default (src/Prelude/Extras.hs:346)
+    readListPrec1Default (src/Prelude/Extras.hs:349)
+    Lift1 (src/Prelude/Extras.hs:516)
+    Eq2 (src/Prelude/Extras.hs:133)
+    /=## (src/Prelude/Extras.hs:140)
+    Ord2 (src/Prelude/Extras.hs:199)
+    <## (src/Prelude/Extras.hs:207)
+    <=## (src/Prelude/Extras.hs:209)
+    >=## (src/Prelude/Extras.hs:211)
+    >## (src/Prelude/Extras.hs:213)
+    max2 (src/Prelude/Extras.hs:216)
+    min2 (src/Prelude/Extras.hs:221)
+    Show2 (src/Prelude/Extras.hs:283)
+    show2 (src/Prelude/Extras.hs:292)
+    shows2 (src/Prelude/Extras.hs:296)
+    Read2 (src/Prelude/Extras.hs:443)
+    read2 (src/Prelude/Extras.hs:468)
+    reads2 (src/Prelude/Extras.hs:471)
+    readPrec2 (src/Prelude/Extras.hs:453)
+    readListPrec2 (src/Prelude/Extras.hs:456)
+    readList2Default (src/Prelude/Extras.hs:487)
+    readListPrec2Default (src/Prelude/Extras.hs:490)
+    Lift2 (src/Prelude/Extras.hs:531)
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/prelude-extras/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-prelude-extras-0.4.013349489051724586126.2
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/prelude-extras-0.4.0.2-57eavILAbKD5CaKv31zEDY
+Registering prelude-extras-0.4.0.2...

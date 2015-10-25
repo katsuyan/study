@@ -1,0 +1,694 @@
+[1 of 5] Compiling NotCPP.Utils     ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/NotCPP/Utils.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/NotCPP/Utils.o )
+[2 of 5] Compiling NotCPP.LookupValueName ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/NotCPP/LookupValueName.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/NotCPP/LookupValueName.o )
+[3 of 5] Compiling NotCPP.Declarations ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/NotCPP/Declarations.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/NotCPP/Declarations.o )
+[4 of 5] Compiling SetupCompat      ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/SetupCompat.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/SetupCompat.o )
+[5 of 5] Compiling Main             ( /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/setup.hs, /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/Main.o )
+Linking /var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/cabal-tmp-1148/ghc-mod-5.4.0.0/dist/dist-sandbox-5bf6cc0d/setup/setup ...
+Configuring ghc-mod-5.4.0.0...
+Building ghc-mod-5.4.0.0...
+Preprocessing library ghc-mod-5.4.0.0...
+[ 1 of 46] Compiling Language.Haskell.GhcMod.Read ( Language/Haskell/GhcMod/Read.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Read.o )
+[ 2 of 46] Compiling Paths_ghc_mod    ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_ghc_mod.o )
+[ 3 of 46] Compiling Utils            ( Utils.hs, dist/dist-sandbox-5bf6cc0d/build/Utils.o )
+[ 4 of 46] Compiling Language.Haskell.GhcMod.Caching.Types ( Language/Haskell/GhcMod/Caching/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Caching/Types.o )
+[ 5 of 46] Compiling Language.Haskell.GhcMod.Types ( Language/Haskell/GhcMod/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Types.o )
+[ 6 of 46] Compiling Language.Haskell.GhcMod.Gap ( Language/Haskell/GhcMod/Gap.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Gap.o )
+[ 7 of 46] Compiling Language.Haskell.GhcMod.Doc ( Language/Haskell/GhcMod/Doc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Doc.o )
+[ 8 of 46] Compiling Language.Haskell.GhcMod.SrcUtils ( Language/Haskell/GhcMod/SrcUtils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/SrcUtils.o )
+[ 9 of 46] Compiling Language.Haskell.GhcMod.Monad.Types ( Language/Haskell/GhcMod/Monad/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Monad/Types.o )
+[10 of 46] Compiling Language.Haskell.GhcMod.Output ( Language/Haskell/GhcMod/Output.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Output.o )
+[11 of 46] Compiling Language.Haskell.GhcMod.Convert ( Language/Haskell/GhcMod/Convert.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Convert.o )
+[12 of 46] Compiling Language.Haskell.GhcMod.Pretty ( Language/Haskell/GhcMod/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Pretty.o )
+[13 of 46] Compiling Language.Haskell.GhcMod.Error ( Language/Haskell/GhcMod/Error.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Error.o )
+[14 of 46] Compiling Language.Haskell.GhcMod.Utils ( Language/Haskell/GhcMod/Utils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Utils.o )
+[15 of 46] Compiling Language.Haskell.GhcMod.Stack ( Language/Haskell/GhcMod/Stack.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Stack.o )
+[16 of 46] Compiling Language.Haskell.GhcMod.DebugLogger ( Language/Haskell/GhcMod/DebugLogger.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/DebugLogger.o )
+[17 of 46] Compiling Language.Haskell.GhcMod.DynFlags ( Language/Haskell/GhcMod/DynFlags.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/DynFlags.o )
+[18 of 46] Compiling Language.Haskell.GhcMod.Logger ( Language/Haskell/GhcMod/Logger.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Logger.o )
+[19 of 46] Compiling Language.Haskell.GhcMod.LightGhc ( Language/Haskell/GhcMod/LightGhc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/LightGhc.o )
+[20 of 46] Compiling Language.Haskell.GhcMod.Logging ( Language/Haskell/GhcMod/Logging.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Logging.o )
+[21 of 46] Compiling Language.Haskell.GhcMod.Caching ( Language/Haskell/GhcMod/Caching.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Caching.o )
+[22 of 46] Compiling Language.Haskell.GhcMod.PathsAndFiles ( Language/Haskell/GhcMod/PathsAndFiles.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/PathsAndFiles.o )
+[23 of 46] Compiling Language.Haskell.GhcMod.CustomPackageDb ( Language/Haskell/GhcMod/CustomPackageDb.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CustomPackageDb.o )
+[24 of 46] Compiling Language.Haskell.GhcMod.CabalHelper ( Language/Haskell/GhcMod/CabalHelper.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CabalHelper.o )
+[25 of 46] Compiling Language.Haskell.GhcMod.GhcPkg ( Language/Haskell/GhcMod/GhcPkg.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/GhcPkg.o )
+[26 of 46] Compiling Language.Haskell.GhcMod.World ( Language/Haskell/GhcMod/World.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/World.o )
+[27 of 46] Compiling Language.Haskell.GhcMod.HomeModuleGraph ( Language/Haskell/GhcMod/HomeModuleGraph.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/HomeModuleGraph.o )
+[28 of 46] Compiling Language.Haskell.GhcMod.FileMapping ( Language/Haskell/GhcMod/FileMapping.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/FileMapping.o )
+[29 of 46] Compiling Language.Haskell.GhcMod.Target ( Language/Haskell/GhcMod/Target.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Target.o )
+[30 of 46] Compiling Language.Haskell.GhcMod.Cradle ( Language/Haskell/GhcMod/Cradle.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Cradle.o )
+[31 of 46] Compiling Language.Haskell.GhcMod.Monad ( Language/Haskell/GhcMod/Monad.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Monad.o )
+[32 of 46] Compiling Language.Haskell.GhcMod.FillSig ( Language/Haskell/GhcMod/FillSig.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/FillSig.o )
+[33 of 46] Compiling Language.Haskell.GhcMod.Find ( Language/Haskell/GhcMod/Find.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Find.o )
+[34 of 46] Compiling Language.Haskell.GhcMod.Flag ( Language/Haskell/GhcMod/Flag.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Flag.o )
+[35 of 46] Compiling Language.Haskell.GhcMod.Info ( Language/Haskell/GhcMod/Info.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Info.o )
+[36 of 46] Compiling Language.Haskell.GhcMod.Lang ( Language/Haskell/GhcMod/Lang.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Lang.o )
+[37 of 46] Compiling Language.Haskell.GhcMod.Lint ( Language/Haskell/GhcMod/Lint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Lint.o )
+[38 of 46] Compiling Language.Haskell.GhcMod.Modules ( Language/Haskell/GhcMod/Modules.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Modules.o )
+[39 of 46] Compiling Language.Haskell.GhcMod.PkgDoc ( Language/Haskell/GhcMod/PkgDoc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/PkgDoc.o )
+[40 of 46] Compiling Language.Haskell.GhcMod.Internal ( Language/Haskell/GhcMod/Internal.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Internal.o )
+[41 of 46] Compiling Language.Haskell.GhcMod.Debug ( Language/Haskell/GhcMod/Debug.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Debug.o )
+[42 of 46] Compiling Language.Haskell.GhcMod.Check ( Language/Haskell/GhcMod/Check.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Check.o )
+[43 of 46] Compiling Language.Haskell.GhcMod.CaseSplit ( Language/Haskell/GhcMod/CaseSplit.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CaseSplit.o )
+[44 of 46] Compiling Language.Haskell.GhcMod.Browse ( Language/Haskell/GhcMod/Browse.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Browse.o )
+[45 of 46] Compiling Language.Haskell.GhcMod.Boot ( Language/Haskell/GhcMod/Boot.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Boot.o )
+[46 of 46] Compiling Language.Haskell.GhcMod ( Language/Haskell/GhcMod.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod.o )
+[ 1 of 46] Compiling Language.Haskell.GhcMod.Read ( Language/Haskell/GhcMod/Read.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Read.p_o )
+[ 2 of 46] Compiling Paths_ghc_mod    ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_ghc_mod.p_o )
+[ 3 of 46] Compiling Utils            ( Utils.hs, dist/dist-sandbox-5bf6cc0d/build/Utils.p_o )
+[ 4 of 46] Compiling Language.Haskell.GhcMod.Caching.Types ( Language/Haskell/GhcMod/Caching/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Caching/Types.p_o )
+[ 5 of 46] Compiling Language.Haskell.GhcMod.Types ( Language/Haskell/GhcMod/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Types.p_o )
+[ 6 of 46] Compiling Language.Haskell.GhcMod.Gap ( Language/Haskell/GhcMod/Gap.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Gap.p_o )
+[ 7 of 46] Compiling Language.Haskell.GhcMod.Doc ( Language/Haskell/GhcMod/Doc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Doc.p_o )
+[ 8 of 46] Compiling Language.Haskell.GhcMod.SrcUtils ( Language/Haskell/GhcMod/SrcUtils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/SrcUtils.p_o )
+[ 9 of 46] Compiling Language.Haskell.GhcMod.Monad.Types ( Language/Haskell/GhcMod/Monad/Types.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Monad/Types.p_o )
+[10 of 46] Compiling Language.Haskell.GhcMod.Output ( Language/Haskell/GhcMod/Output.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Output.p_o )
+[11 of 46] Compiling Language.Haskell.GhcMod.Convert ( Language/Haskell/GhcMod/Convert.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Convert.p_o )
+[12 of 46] Compiling Language.Haskell.GhcMod.Pretty ( Language/Haskell/GhcMod/Pretty.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Pretty.p_o )
+[13 of 46] Compiling Language.Haskell.GhcMod.Error ( Language/Haskell/GhcMod/Error.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Error.p_o )
+[14 of 46] Compiling Language.Haskell.GhcMod.Utils ( Language/Haskell/GhcMod/Utils.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Utils.p_o )
+[15 of 46] Compiling Language.Haskell.GhcMod.Stack ( Language/Haskell/GhcMod/Stack.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Stack.p_o )
+[16 of 46] Compiling Language.Haskell.GhcMod.DebugLogger ( Language/Haskell/GhcMod/DebugLogger.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/DebugLogger.p_o )
+[17 of 46] Compiling Language.Haskell.GhcMod.DynFlags ( Language/Haskell/GhcMod/DynFlags.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/DynFlags.p_o )
+[18 of 46] Compiling Language.Haskell.GhcMod.Logger ( Language/Haskell/GhcMod/Logger.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Logger.p_o )
+[19 of 46] Compiling Language.Haskell.GhcMod.LightGhc ( Language/Haskell/GhcMod/LightGhc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/LightGhc.p_o )
+[20 of 46] Compiling Language.Haskell.GhcMod.Logging ( Language/Haskell/GhcMod/Logging.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Logging.p_o )
+[21 of 46] Compiling Language.Haskell.GhcMod.Caching ( Language/Haskell/GhcMod/Caching.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Caching.p_o )
+[22 of 46] Compiling Language.Haskell.GhcMod.PathsAndFiles ( Language/Haskell/GhcMod/PathsAndFiles.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/PathsAndFiles.p_o )
+[23 of 46] Compiling Language.Haskell.GhcMod.CustomPackageDb ( Language/Haskell/GhcMod/CustomPackageDb.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CustomPackageDb.p_o )
+[24 of 46] Compiling Language.Haskell.GhcMod.CabalHelper ( Language/Haskell/GhcMod/CabalHelper.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CabalHelper.p_o )
+[25 of 46] Compiling Language.Haskell.GhcMod.GhcPkg ( Language/Haskell/GhcMod/GhcPkg.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/GhcPkg.p_o )
+[26 of 46] Compiling Language.Haskell.GhcMod.World ( Language/Haskell/GhcMod/World.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/World.p_o )
+[27 of 46] Compiling Language.Haskell.GhcMod.HomeModuleGraph ( Language/Haskell/GhcMod/HomeModuleGraph.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/HomeModuleGraph.p_o )
+[28 of 46] Compiling Language.Haskell.GhcMod.FileMapping ( Language/Haskell/GhcMod/FileMapping.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/FileMapping.p_o )
+[29 of 46] Compiling Language.Haskell.GhcMod.Target ( Language/Haskell/GhcMod/Target.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Target.p_o )
+[30 of 46] Compiling Language.Haskell.GhcMod.Cradle ( Language/Haskell/GhcMod/Cradle.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Cradle.p_o )
+[31 of 46] Compiling Language.Haskell.GhcMod.Monad ( Language/Haskell/GhcMod/Monad.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Monad.p_o )
+[32 of 46] Compiling Language.Haskell.GhcMod.FillSig ( Language/Haskell/GhcMod/FillSig.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/FillSig.p_o )
+[33 of 46] Compiling Language.Haskell.GhcMod.Find ( Language/Haskell/GhcMod/Find.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Find.p_o )
+[34 of 46] Compiling Language.Haskell.GhcMod.Flag ( Language/Haskell/GhcMod/Flag.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Flag.p_o )
+[35 of 46] Compiling Language.Haskell.GhcMod.Info ( Language/Haskell/GhcMod/Info.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Info.p_o )
+[36 of 46] Compiling Language.Haskell.GhcMod.Lang ( Language/Haskell/GhcMod/Lang.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Lang.p_o )
+[37 of 46] Compiling Language.Haskell.GhcMod.Lint ( Language/Haskell/GhcMod/Lint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Lint.p_o )
+[38 of 46] Compiling Language.Haskell.GhcMod.Modules ( Language/Haskell/GhcMod/Modules.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Modules.p_o )
+[39 of 46] Compiling Language.Haskell.GhcMod.PkgDoc ( Language/Haskell/GhcMod/PkgDoc.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/PkgDoc.p_o )
+[40 of 46] Compiling Language.Haskell.GhcMod.Internal ( Language/Haskell/GhcMod/Internal.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Internal.p_o )
+[41 of 46] Compiling Language.Haskell.GhcMod.Debug ( Language/Haskell/GhcMod/Debug.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Debug.p_o )
+[42 of 46] Compiling Language.Haskell.GhcMod.Check ( Language/Haskell/GhcMod/Check.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Check.p_o )
+[43 of 46] Compiling Language.Haskell.GhcMod.CaseSplit ( Language/Haskell/GhcMod/CaseSplit.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/CaseSplit.p_o )
+[44 of 46] Compiling Language.Haskell.GhcMod.Browse ( Language/Haskell/GhcMod/Browse.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Browse.p_o )
+[45 of 46] Compiling Language.Haskell.GhcMod.Boot ( Language/Haskell/GhcMod/Boot.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod/Boot.p_o )
+[46 of 46] Compiling Language.Haskell.GhcMod ( Language/Haskell/GhcMod.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/GhcMod.p_o )
+In-place registering ghc-mod-5.4.0.0...
+Preprocessing executable 'ghc-mod' for ghc-mod-5.4.0.0...
+[1 of 3] Compiling Misc             ( src/Misc.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-mod/ghc-mod-tmp/Misc.o )
+[2 of 3] Compiling Paths_ghc_mod    ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-mod/ghc-mod-tmp/Paths_ghc_mod.o )
+[3 of 3] Compiling Main             ( src/GHCMod.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-mod/ghc-mod-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/ghc-mod/ghc-mod ...
+Preprocessing executable 'ghc-modi' for ghc-mod-5.4.0.0...
+[1 of 3] Compiling Utils            ( Utils.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-modi/ghc-modi-tmp/Utils.o )
+[2 of 3] Compiling Paths_ghc_mod    ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-modi/ghc-modi-tmp/Paths_ghc_mod.o )
+[3 of 3] Compiling Main             ( src/GHCModi.hs, dist/dist-sandbox-5bf6cc0d/build/ghc-modi/ghc-modi-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/ghc-modi/ghc-modi ...
+Running Haddock for ghc-mod-5.4.0.0...
+Preprocessing library ghc-mod-5.4.0.0...
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: nats-1
+Haddock coverage:
+   0% (  0 /  3) in 'Language.Haskell.GhcMod.Read'
+  Missing documentation for:
+    Module header
+    readEither (Language/Haskell/GhcMod/Read.hs:91)
+    readMaybe (Language/Haskell/GhcMod/Read.hs:103)
+   0% (  0 /  8) in 'Paths_ghc_mod'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:15)
+    getBinDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:25)
+    getLibDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:25)
+    getDataDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:25)
+    getLibexecDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:25)
+    getDataFileName (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:32)
+    getSysconfDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_ghc_mod.hs:25)
+   0% (  0 /  7) in 'Utils'
+  Missing documentation for:
+    Module header
+    ModTime (Utils.hs:17)
+    TimedFile (Utils.hs:22)
+     (Utils.hs:25)
+    timeFile (Utils.hs:28)
+    mightExist (Utils.hs:31)
+    timeMaybe (Utils.hs:36)
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.Caching.Types'
+  Missing documentation for:
+    Module header
+    CacheContents (Language/Haskell/GhcMod/Caching/Types.hs:8)
+    CacheLens (Language/Haskell/GhcMod/Caching/Types.hs:9)
+    Cached (Language/Haskell/GhcMod/Caching/Types.hs:11)
+    TimedCacheFiles (Language/Haskell/GhcMod/Caching/Types.hs:45)
+    ChCacheData (Language/Haskell/GhcMod/Caching/Types.hs:52)
+  18% ( 16 / 91) in 'Language.Haskell.GhcMod.Types'
+  Missing documentation for:
+    Module header
+    MonadIOC (Language/Haskell/GhcMod/Types.hs:59)
+    MonadIO (Language/Haskell/GhcMod/Types.hs:62)
+    FileMapping (Language/Haskell/GhcMod/Types.hs:73)
+    FileMappingMap (Language/Haskell/GhcMod/Types.hs:76)
+    ProgramSource (Language/Haskell/GhcMod/Types.hs:78)
+    Programs (Language/Haskell/GhcMod/Types.hs:80)
+    OutputOpts (Language/Haskell/GhcMod/Types.hs:91)
+    Options (Language/Haskell/GhcMod/Types.hs:102)
+    Project (Language/Haskell/GhcMod/Types.hs:142)
+    isCabalHelperProject (Language/Haskell/GhcMod/Types.hs:148)
+    StackEnv (Language/Haskell/GhcMod/Types.hs:153)
+    GmStream (Language/Haskell/GhcMod/Types.hs:175)
+    GhcModEnv (Language/Haskell/GhcMod/Types.hs:178)
+    GhcModOut (Language/Haskell/GhcMod/Types.hs:183)
+    GhcModLog (Language/Haskell/GhcMod/Types.hs:188)
+     (Language/Haskell/GhcMod/Types.hs:194)
+    GmGhcSession (Language/Haskell/GhcMod/Types.hs:199)
+    GhcModCaches (Language/Haskell/GhcMod/Types.hs:204)
+    GhcModState (Language/Haskell/GhcMod/Types.hs:213)
+    CompilerMode (Language/Haskell/GhcMod/Types.hs:221)
+    defaultGhcModState (Language/Haskell/GhcMod/Types.hs:223)
+     (Language/Haskell/GhcMod/Types.hs:236)
+    pkgName (Language/Haskell/GhcMod/Types.hs:256)
+    pkgVer (Language/Haskell/GhcMod/Types.hs:259)
+    pkgId (Language/Haskell/GhcMod/Types.hs:262)
+    showPkg (Language/Haskell/GhcMod/Types.hs:265)
+    showPkgId (Language/Haskell/GhcMod/Types.hs:268)
+    GmLogLevel (Language/Haskell/GhcMod/Types.hs:279)
+    GmModuleGraph (Language/Haskell/GhcMod/Types.hs:293)
+     (Language/Haskell/GhcMod/Types.hs:297)
+     (Language/Haskell/GhcMod/Types.hs:318)
+    GmComponentType (Language/Haskell/GhcMod/Types.hs:323)
+    GmComponent (Language/Haskell/GhcMod/Types.hs:325)
+     (Language/Haskell/GhcMod/Types.hs:337)
+    ModulePath (Language/Haskell/GhcMod/Types.hs:339)
+     (Language/Haskell/GhcMod/Types.hs:341)
+     (Language/Haskell/GhcMod/Types.hs:343)
+     (Language/Haskell/GhcMod/Types.hs:347)
+     (Language/Haskell/GhcMod/Types.hs:350)
+    GhcModError (Language/Haskell/GhcMod/Types.hs:361)
+     (Language/Haskell/GhcMod/Types.hs:395)
+     (Language/Haskell/GhcMod/Types.hs:399)
+     (Language/Haskell/GhcMod/Types.hs:402)
+     (Language/Haskell/GhcMod/Types.hs:404)
+     (Language/Haskell/GhcMod/Types.hs:405)
+     (Language/Haskell/GhcMod/Types.hs:406)
+     (Language/Haskell/GhcMod/Types.hs:407)
+    lGmcResolvedComponents (Language/Haskell/GhcMod/Types.hs:409)
+    lGmcPackageDbStack (Language/Haskell/GhcMod/Types.hs:409)
+    lGmcMergedPkgOptions (Language/Haskell/GhcMod/Types.hs:409)
+    lGmcComponents (Language/Haskell/GhcMod/Types.hs:409)
+    lGmMMappedFiles (Language/Haskell/GhcMod/Types.hs:410)
+    lGmGhcSession (Language/Haskell/GhcMod/Types.hs:410)
+    lGmComponents (Language/Haskell/GhcMod/Types.hs:410)
+    lGmCompilerMode (Language/Haskell/GhcMod/Types.hs:410)
+    lGmCaches (Language/Haskell/GhcMod/Types.hs:410)
+    lOptQualified (Language/Haskell/GhcMod/Types.hs:411)
+    lOptPrograms (Language/Haskell/GhcMod/Types.hs:411)
+    lOptOutput (Language/Haskell/GhcMod/Types.hs:411)
+    lOptOperators (Language/Haskell/GhcMod/Types.hs:411)
+    lOptHlintOpts (Language/Haskell/GhcMod/Types.hs:411)
+    lOptGhcUserOptions (Language/Haskell/GhcMod/Types.hs:411)
+    lOptFileMappings (Language/Haskell/GhcMod/Types.hs:411)
+    lOptDetailed (Language/Haskell/GhcMod/Types.hs:411)
+    lOoptStyle (Language/Haskell/GhcMod/Types.hs:412)
+    lOoptLogLevel (Language/Haskell/GhcMod/Types.hs:412)
+    lOoptLineSeparator (Language/Haskell/GhcMod/Types.hs:412)
+    lOoptLinePrefix (Language/Haskell/GhcMod/Types.hs:412)
+    lStackProgram (Language/Haskell/GhcMod/Types.hs:413)
+    lGhcProgram (Language/Haskell/GhcMod/Types.hs:413)
+    lGhcPkgProgram (Language/Haskell/GhcMod/Types.hs:413)
+    lCabalProgram (Language/Haskell/GhcMod/Types.hs:413)
+    mkModuleName
+    moduleNameString
+   0% (  0 / 44) in 'Language.Haskell.GhcMod.Gap'
+  Missing documentation for:
+    Module header
+    ClsInst (Language/Haskell/GhcMod/Gap.hs:117)
+    mkTarget (Language/Haskell/GhcMod/Gap.hs:122)
+    withStyle (Language/Haskell/GhcMod/Gap.hs:132)
+    GmLogAction (Language/Haskell/GhcMod/Gap.hs:140)
+    setLogAction (Language/Haskell/GhcMod/Gap.hs:145)
+    getSrcSpan (Language/Haskell/GhcMod/Gap.hs:165)
+    getSrcFile (Language/Haskell/GhcMod/Gap.hs:177)
+    withInteractiveContext (Language/Haskell/GhcMod/Gap.hs:222)
+    fOptions (Language/Haskell/GhcMod/Gap.hs:196)
+    toStringBuffer (Language/Haskell/GhcMod/Gap.hs:187)
+    showSeverityCaption (Language/Haskell/GhcMod/Gap.hs:249)
+    setCabalPkg (Language/Haskell/GhcMod/Gap.hs:260)
+    setHideAllPackages (Language/Haskell/GhcMod/Gap.hs:269)
+    setDeferTypeErrors (Language/Haskell/GhcMod/Gap.hs:287)
+    setDeferTypedHoles (Language/Haskell/GhcMod/Gap.hs:296)
+    setWarnTypedHoles (Language/Haskell/GhcMod/Gap.hs:303)
+    setDumpSplices (Language/Haskell/GhcMod/Gap.hs:278)
+    isDumpSplices (Language/Haskell/GhcMod/Gap.hs:281)
+    filterOutChildren (Language/Haskell/GhcMod/Gap.hs:332)
+    infoThing (Language/Haskell/GhcMod/Gap.hs:338)
+    pprInfo (Language/Haskell/GhcMod/Gap.hs:351)
+    HasType (Language/Haskell/GhcMod/Gap.hs:313)
+    errorMsgSpan (Language/Haskell/GhcMod/Gap.hs:391)
+    typeForUser (Language/Haskell/GhcMod/Gap.hs:398)
+    nameForUser (Language/Haskell/GhcMod/Gap.hs:405)
+    occNameForUser (Language/Haskell/GhcMod/Gap.hs:408)
+    deSugar (Language/Haskell/GhcMod/Gap.hs:411)
+    showDocWith (Language/Haskell/GhcMod/Gap.hs:153)
+    GapThing (Language/Haskell/GhcMod/Gap.hs:427)
+    fromTyThing (Language/Haskell/GhcMod/Gap.hs:429)
+    fileModSummary (Language/Haskell/GhcMod/Gap.hs:214)
+    WarnFlags (Language/Haskell/GhcMod/Gap.hs:444)
+    emptyWarnFlags (Language/Haskell/GhcMod/Gap.hs:445)
+    GLMatch (Language/Haskell/GhcMod/Gap.hs:457)
+    GLMatchI (Language/Haskell/GhcMod/Gap.hs:458)
+    getClass (Language/Haskell/GhcMod/Gap.hs:464)
+    occName
+    listVisibleModuleNames
+    listVisibleModules (Language/Haskell/GhcMod/Gap.hs:517)
+    lookupModulePackageInAllPackages (Language/Haskell/GhcMod/Gap.hs:503)
+    isSynTyCon (Language/Haskell/GhcMod/Gap.hs:530)
+    parseModuleHeader (Language/Haskell/GhcMod/Gap.hs:538)
+    mkErrStyle' (Language/Haskell/GhcMod/Gap.hs:561)
+   0% (  0 /  5) in 'Language.Haskell.GhcMod.Doc'
+  Missing documentation for:
+    Module header
+    showPage (Language/Haskell/GhcMod/Doc.hs:8)
+    showOneLine (Language/Haskell/GhcMod/Doc.hs:11)
+    getStyle (Language/Haskell/GhcMod/Doc.hs:19)
+    styleUnqualified (Language/Haskell/GhcMod/Doc.hs:24)
+   0% (  0 / 15) in 'Language.Haskell.GhcMod.SrcUtils'
+  Missing documentation for:
+    Module header
+     (Language/Haskell/GhcMod/SrcUtils.hs:26)
+     (Language/Haskell/GhcMod/SrcUtils.hs:32)
+    listifySpans (Language/Haskell/GhcMod/SrcUtils.hs:37)
+    listifyParsedSpans (Language/Haskell/GhcMod/SrcUtils.hs:42)
+    listifyRenamedSpans (Language/Haskell/GhcMod/SrcUtils.hs:47)
+    listifyStaged (Language/Haskell/GhcMod/SrcUtils.hs:52)
+    cmp (Language/Haskell/GhcMod/SrcUtils.hs:55)
+    toTup (Language/Haskell/GhcMod/SrcUtils.hs:61)
+    fourInts (Language/Haskell/GhcMod/SrcUtils.hs:64)
+    fourIntsHE (Language/Haskell/GhcMod/SrcUtils.hs:67)
+    typeSigInRangeHE (Language/Haskell/GhcMod/SrcUtils.hs:72)
+    pretty (Language/Haskell/GhcMod/SrcUtils.hs:81)
+    showName (Language/Haskell/GhcMod/SrcUtils.hs:84)
+    showOccName (Language/Haskell/GhcMod/SrcUtils.hs:87)
+Warning: Language.Haskell.GhcMod.Monad.Types: liftIO is exported separately but will be documented under MonadIO. Consider exporting it together with its parent(s) for code clarity.
+  12% (  5 / 42) in 'Language.Haskell.GhcMod.Monad.Types'
+  Missing documentation for:
+    Module header
+    GhcModT (Language/Haskell/GhcMod/Monad/Types.hs:120)
+    GmOutT (Language/Haskell/GhcMod/Monad/Types.hs:122)
+    GmT (Language/Haskell/GhcMod/Monad/Types.hs:137)
+    GmlT (Language/Haskell/GhcMod/Monad/Types.hs:154)
+    LightGhc (Language/Haskell/GhcMod/Monad/Types.hs:170)
+    GmGhc (Language/Haskell/GhcMod/Monad/Types.hs:449)
+    GhcModEnv (Language/Haskell/GhcMod/Types.hs:178)
+    GhcModState (Language/Haskell/GhcMod/Types.hs:213)
+    GhcModCaches (Language/Haskell/GhcMod/Types.hs:204)
+    defaultGhcModState (Language/Haskell/GhcMod/Types.hs:223)
+    GmGhcSession (Language/Haskell/GhcMod/Types.hs:199)
+    GmComponent (Language/Haskell/GhcMod/Types.hs:325)
+    CompilerMode (Language/Haskell/GhcMod/Types.hs:221)
+    GmLogLevel (Language/Haskell/GhcMod/Types.hs:279)
+    GhcModLog (Language/Haskell/GhcMod/Types.hs:188)
+    GhcModError (Language/Haskell/GhcMod/Types.hs:361)
+    Gm (Language/Haskell/GhcMod/Monad/Types.hs:225)
+    GmEnv (Language/Haskell/GhcMod/Monad/Types.hs:228)
+    GmState (Language/Haskell/GhcMod/Monad/Types.hs:264)
+    GmLog (Language/Haskell/GhcMod/Monad/Types.hs:300)
+    GmOut (Language/Haskell/GhcMod/Monad/Types.hs:326)
+    cradle (Language/Haskell/GhcMod/Monad/Types.hs:530)
+    options (Language/Haskell/GhcMod/Monad/Types.hs:524)
+    outputOpts (Language/Haskell/GhcMod/Monad/Types.hs:527)
+    withOptions (Language/Haskell/GhcMod/Monad/Types.hs:560)
+    getCompilerMode (Language/Haskell/GhcMod/Monad/Types.hs:533)
+    setCompilerMode (Language/Haskell/GhcMod/Monad/Types.hs:536)
+    getMMappedFiles (Language/Haskell/GhcMod/Monad/Types.hs:539)
+    setMMappedFiles (Language/Haskell/GhcMod/Monad/Types.hs:542)
+    addMMappedFile (Language/Haskell/GhcMod/Monad/Types.hs:545)
+    delMMappedFile (Language/Haskell/GhcMod/Monad/Types.hs:549)
+    lookupMMappedFile (Language/Haskell/GhcMod/Monad/Types.hs:553)
+    getMMappedFilePaths (Language/Haskell/GhcMod/Monad/Types.hs:557)
+    MonadIO (Language/Haskell/GhcMod/Types.hs:62)
+    gmlGetSession (Language/Haskell/GhcMod/Monad/Types.hs:455)
+    gmlSetSession (Language/Haskell/GhcMod/Monad/Types.hs:460)
+   0% (  0 / 10) in 'Language.Haskell.GhcMod.Output'
+  Missing documentation for:
+    Module header
+    gmPutStr (Language/Haskell/GhcMod/Output.hs:82)
+    gmErrStr (Language/Haskell/GhcMod/Output.hs:82)
+    gmPutStrLn (Language/Haskell/GhcMod/Output.hs:82)
+    gmErrStrLn (Language/Haskell/GhcMod/Output.hs:82)
+    gmPutStrIO (Language/Haskell/GhcMod/Output.hs:96)
+    gmErrStrIO (Language/Haskell/GhcMod/Output.hs:96)
+    gmReadProcess (Language/Haskell/GhcMod/Output.hs:102)
+    stdoutGateway (Language/Haskell/GhcMod/Output.hs:119)
+    flushStdoutGateway (Language/Haskell/GhcMod/Output.hs:111)
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.Convert'
+  Missing documentation for:
+    Module header
+    convert (Language/Haskell/GhcMod/Convert.hs:30)
+    convert' (Language/Haskell/GhcMod/Convert.hs:27)
+    emptyResult (Language/Haskell/GhcMod/Convert.hs:131)
+    whenFound (Language/Haskell/GhcMod/Convert.hs:135)
+    whenFound' (Language/Haskell/GhcMod/Convert.hs:139)
+   0% (  0 / 11) in 'Language.Haskell.GhcMod.Pretty'
+  Missing documentation for:
+    Module header
+    docStyle (Language/Haskell/GhcMod/Pretty.hs:27)
+    gmRenderDoc (Language/Haskell/GhcMod/Pretty.hs:30)
+    gmComponentNameDoc (Language/Haskell/GhcMod/Pretty.hs:33)
+    gmLogLevelDoc (Language/Haskell/GhcMod/Pretty.hs:40)
+    <+>: (Language/Haskell/GhcMod/Pretty.hs:51)
+    fnDoc (Language/Haskell/GhcMod/Pretty.hs:54)
+    showDoc (Language/Haskell/GhcMod/Pretty.hs:57)
+    warnDoc (Language/Haskell/GhcMod/Pretty.hs:60)
+    strLnDoc (Language/Haskell/GhcMod/Pretty.hs:63)
+    strDoc (Language/Haskell/GhcMod/Pretty.hs:68)
+  13% (  2 / 15) in 'Language.Haskell.GhcMod.Error'
+  Missing documentation for:
+    Module header
+    GhcModError (Language/Haskell/GhcMod/Types.hs:361)
+    GmError (Language/Haskell/GhcMod/Error.hs:53)
+    gmeDoc (Language/Haskell/GhcMod/Error.hs:55)
+    ghcExceptionDoc (Language/Haskell/GhcMod/Error.hs:113)
+    liftMaybe (Language/Haskell/GhcMod/Error.hs:133)
+    overrideError (Language/Haskell/GhcMod/Error.hs:136)
+    modifyError (Language/Haskell/GhcMod/Error.hs:139)
+    modifyError' (Language/Haskell/GhcMod/Error.hs:143)
+    modifyGmError (Language/Haskell/GhcMod/Error.hs:146)
+    tryFix (Language/Haskell/GhcMod/Error.hs:150)
+    GHandler (Language/Haskell/GhcMod/Error.hs:154)
+    gcatches (Language/Haskell/GhcMod/Error.hs:156)
+  12% (  3 / 26) in 'Language.Haskell.GhcMod.Utils'
+  Missing documentation for:
+    Module header
+    dropWhileEnd (Language/Haskell/GhcMod/Utils.hs:48)
+    withDirectory_ (Language/Haskell/GhcMod/Utils.hs:51)
+    uniqTempDirName (Language/Haskell/GhcMod/Utils.hs:58)
+    newTempDir (Language/Haskell/GhcMod/Utils.hs:72)
+    whenM (Language/Haskell/GhcMod/Utils.hs:76)
+    findLibexecExe (Language/Haskell/GhcMod/Utils.hs:90)
+    libexecNotExitsError (Language/Haskell/GhcMod/Utils.hs:109)
+    tryFindGhcModTreeLibexecDir (Language/Haskell/GhcMod/Utils.hs:125)
+    tryFindGhcModTreeDataDir (Language/Haskell/GhcMod/Utils.hs:136)
+    readLibExecProcess' (Language/Haskell/GhcMod/Utils.hs:144)
+    getExecutablePath' (Language/Haskell/GhcMod/Utils.hs:150)
+    canonFilePath (Language/Haskell/GhcMod/Utils.hs:157)
+    withMappedFile (Language/Haskell/GhcMod/Utils.hs:164)
+    getCanonicalFileNameSafe (Language/Haskell/GhcMod/Utils.hs:171)
+    mkRevRedirMapFunc (Language/Haskell/GhcMod/Utils.hs:186)
+    findFilesWith' (Language/Haskell/GhcMod/Utils.hs:198)
+    ModTime (Utils.hs:17)
+    TimedFile (Utils.hs:22)
+     (Utils.hs:25)
+    timeFile (Utils.hs:28)
+    mightExist (Utils.hs:31)
+    timeMaybe (Utils.hs:36)
+   0% (  0 /  8) in 'Language.Haskell.GhcMod.Stack'
+  Missing documentation for:
+    Module header
+    patchStackPrograms (Language/Haskell/GhcMod/Stack.hs:39)
+    getStackEnv (Language/Haskell/GhcMod/Stack.hs:49)
+    getStackGhcPath (Language/Haskell/GhcMod/Stack.hs:64)
+    getStackGhcPkgPath (Language/Haskell/GhcMod/Stack.hs:67)
+    findExecutablesInStackBinPath (Language/Haskell/GhcMod/Stack.hs:70)
+    findExecutablesInDirectories' (Language/Haskell/GhcMod/Stack.hs:74)
+    readStack (Language/Haskell/GhcMod/Stack.hs:83)
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.DebugLogger'
+  Missing documentation for:
+    Module header
+    debugLogAction (Language/Haskell/GhcMod/DebugLogger.hs:16)
+    debugLogActionHPrintDoc (Language/Haskell/GhcMod/DebugLogger.hs:52)
+    debugLogActionHPutStrDoc (Language/Haskell/GhcMod/DebugLogger.hs:57)
+    gmPrintDoc (Language/Haskell/GhcMod/DebugLogger.hs:74)
+    gmPrintDoc_ (Language/Haskell/GhcMod/DebugLogger.hs:78)
+  57% ( 12 / 21) in 'Language.Haskell.GhcMod.DynFlags'
+  Missing documentation for:
+    Module header
+    setEmptyLogger (Language/Haskell/GhcMod/DynFlags.hs:16)
+    setDebugLogger (Language/Haskell/GhcMod/DynFlags.hs:20)
+    setModeSimple (Language/Haskell/GhcMod/DynFlags.hs:28)
+    setModeIntelligent (Language/Haskell/GhcMod/DynFlags.hs:40)
+    withDynFlags (Language/Haskell/GhcMod/DynFlags.hs:57)
+    withCmdFlags (Language/Haskell/GhcMod/DynFlags.hs:69)
+    allWarningFlags (Language/Haskell/GhcMod/DynFlags.hs:88)
+    deferErrors (Language/Haskell/GhcMod/DynFlags.hs:105)
+  17% (  1 /  6) in 'Language.Haskell.GhcMod.Logger'
+  Missing documentation for:
+    Module header
+    withLogger' (Language/Haskell/GhcMod/Logger.hs:90)
+    checkErrorPrefix (Language/Haskell/GhcMod/Logger.hs:168)
+    errsToStr (Language/Haskell/GhcMod/Logger.hs:125)
+    errBagToStrList (Language/Haskell/GhcMod/Logger.hs:112)
+   0% (  0 /  3) in 'Language.Haskell.GhcMod.LightGhc'
+  Missing documentation for:
+    Module header
+    withLightHscEnv (Language/Haskell/GhcMod/LightGhc.hs:18)
+    runLightGhc (Language/Haskell/GhcMod/LightGhc.hs:41)
+  29% (  4 / 14) in 'Language.Haskell.GhcMod.Logging'
+  Missing documentation for:
+    Module header
+    gmSetLogLevel (Language/Haskell/GhcMod/Logging.hs:44)
+    gmSetDumpLevel (Language/Haskell/GhcMod/Logging.hs:48)
+    increaseLogLevel (Language/Haskell/GhcMod/Logging.hs:53)
+    decreaseLogLevel (Language/Haskell/GhcMod/Logging.hs:57)
+    gmVomit (Language/Haskell/GhcMod/Logging.hs:81)
+    LogDiscardT (Language/Haskell/GhcMod/Logging.hs:93)
+     (Language/Haskell/GhcMod/Logging.hs:96)
+     (Language/Haskell/GhcMod/Logging.hs:99)
+    GmLogLevel (Language/Haskell/GhcMod/Types.hs:279)
+  40% (  2 /  5) in 'Language.Haskell.GhcMod.Caching'
+  Missing documentation for:
+    Module header
+    timeCacheInput (Language/Haskell/GhcMod/Caching.hs:90)
+    invalidatingInputFiles (Language/Haskell/GhcMod/Caching.hs:97)
+  44% ( 14 / 32) in 'Language.Haskell.GhcMod.PathsAndFiles'
+  Missing documentation for:
+    Module header
+    UnString (Language/Haskell/GhcMod/PathsAndFiles.hs:48)
+     (Language/Haskell/GhcMod/PathsAndFiles.hs:50)
+     (Language/Haskell/GhcMod/PathsAndFiles.hs:53)
+    findStackConfigFile (Language/Haskell/GhcMod/PathsAndFiles.hs:75)
+    findCabalSandboxDir (Language/Haskell/GhcMod/PathsAndFiles.hs:146)
+    zipMapM (Language/Haskell/GhcMod/PathsAndFiles.hs:156)
+    setupConfigFile (Language/Haskell/GhcMod/PathsAndFiles.hs:187)
+    sandboxConfigFile (Language/Haskell/GhcMod/PathsAndFiles.hs:191)
+    sandboxConfigFileName (Language/Haskell/GhcMod/PathsAndFiles.hs:194)
+    macrosHeaderPath (Language/Haskell/GhcMod/PathsAndFiles.hs:202)
+    ghcSandboxPkgDbDir (Language/Haskell/GhcMod/PathsAndFiles.hs:205)
+    packageCache (Language/Haskell/GhcMod/PathsAndFiles.hs:209)
+    symbolCacheFile (Language/Haskell/GhcMod/PathsAndFiles.hs:216)
+    resolvedComponentsCacheFile (Language/Haskell/GhcMod/PathsAndFiles.hs:219)
+    cabalHelperCacheFile (Language/Haskell/GhcMod/PathsAndFiles.hs:223)
+    mergedPkgOptsCacheFile (Language/Haskell/GhcMod/PathsAndFiles.hs:227)
+    pkgDbStackCacheFile (Language/Haskell/GhcMod/PathsAndFiles.hs:231)
+   0% (  0 /  3) in 'Language.Haskell.GhcMod.CustomPackageDb'
+  Missing documentation for:
+    Module header
+    parseCustomPackageDb (Language/Haskell/GhcMod/CustomPackageDb.hs:15)
+    getCustomPkgDbStack (Language/Haskell/GhcMod/CustomPackageDb.hs:22)
+  40% (  2 /  5) in 'Language.Haskell.GhcMod.CabalHelper'
+  Missing documentation for:
+    Module header
+    getCabalPackageDbStack (Language/Haskell/GhcMod/CabalHelper.hs:65)
+    prepareCabalHelper (Language/Haskell/GhcMod/CabalHelper.hs:132)
+  25% (  2 /  8) in 'Language.Haskell.GhcMod.GhcPkg'
+  Missing documentation for:
+    Module header
+    ghcPkgDbOpt (Language/Haskell/GhcMod/GhcPkg.hs:45)
+    ghcDbOpt (Language/Haskell/GhcMod/GhcPkg.hs:52)
+    getPackageDbStack (Language/Haskell/GhcMod/GhcPkg.hs:76)
+    getPackageCachePaths (Language/Haskell/GhcMod/GhcPkg.hs:92)
+    getGhcPkgProgram (Language/Haskell/GhcMod/GhcPkg.hs:65)
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.World'
+  Missing documentation for:
+    Module header
+    World (Language/Haskell/GhcMod/World.hs:17)
+    timedPackageCaches (Language/Haskell/GhcMod/World.hs:25)
+    getCurrentWorld (Language/Haskell/GhcMod/World.hs:31)
+    didWorldChange (Language/Haskell/GhcMod/World.hs:48)
+    isYoungerThanSetupConfig (Language/Haskell/GhcMod/World.hs:52)
+   7% (  1 / 15) in 'Language.Haskell.GhcMod.HomeModuleGraph'
+  Missing documentation for:
+    Module header
+    GmModuleGraph (Language/Haskell/GhcMod/Types.hs:293)
+    ModulePath (Language/Haskell/GhcMod/Types.hs:339)
+    mkFileMap (Language/Haskell/GhcMod/HomeModuleGraph.hs:183)
+    mkModuleMap (Language/Haskell/GhcMod/HomeModuleGraph.hs:186)
+    mkMainModulePath (Language/Haskell/GhcMod/HomeModuleGraph.hs:133)
+    findModulePath (Language/Haskell/GhcMod/HomeModuleGraph.hs:136)
+    findModulePathSet (Language/Haskell/GhcMod/HomeModuleGraph.hs:140)
+    fileModuleName (Language/Haskell/GhcMod/HomeModuleGraph.hs:253)
+    canonicalizeModulePath (Language/Haskell/GhcMod/HomeModuleGraph.hs:154)
+    homeModuleGraph (Language/Haskell/GhcMod/HomeModuleGraph.hs:129)
+    updateHomeModuleGraph (Language/Haskell/GhcMod/HomeModuleGraph.hs:164)
+    canonicalizeModuleGraph (Language/Haskell/GhcMod/HomeModuleGraph.hs:157)
+    reachable (Language/Haskell/GhcMod/HomeModuleGraph.hs:109)
+   0% (  0 /  6) in 'Language.Haskell.GhcMod.FileMapping'
+  Missing documentation for:
+    Module header
+    loadMappedFile (Language/Haskell/GhcMod/FileMapping.hs:23)
+    loadMappedFileSource (Language/Haskell/GhcMod/FileMapping.hs:26)
+    unloadMappedFile (Language/Haskell/GhcMod/FileMapping.hs:60)
+    mapFile (Language/Haskell/GhcMod/FileMapping.hs:42)
+    fileModSummaryWithMapping (Language/Haskell/GhcMod/FileMapping.hs:69)
+   8% (  2 / 24) in 'Language.Haskell.GhcMod.Target'
+  Missing documentation for:
+    Module header
+    runGmPkgGhc (Language/Haskell/GhcMod/Target.hs:62)
+    initSession (Language/Haskell/GhcMod/Target.hs:67)
+    runGmlT (Language/Haskell/GhcMod/Target.hs:108)
+    runGmlT' (Language/Haskell/GhcMod/Target.hs:111)
+    runGmlTWith (Language/Haskell/GhcMod/Target.hs:118)
+    targetGhcOptions (Language/Haskell/GhcMod/Target.hs:155)
+    resolvedComponentsCache (Language/Haskell/GhcMod/Target.hs:193)
+    moduleComponents (Language/Haskell/GhcMod/Target.hs:249)
+    findCandidates (Language/Haskell/GhcMod/Target.hs:268)
+    pickComponent (Language/Haskell/GhcMod/Target.hs:272)
+    packageGhcOptions (Language/Haskell/GhcMod/Target.hs:275)
+    sandboxOpts (Language/Haskell/GhcMod/Target.hs:285)
+    resolveGmComponent (Language/Haskell/GhcMod/Target.hs:298)
+    resolveEntrypoint (Language/Haskell/GhcMod/Target.hs:325)
+    resolveChEntrypoints (Language/Haskell/GhcMod/Target.hs:340)
+    chModToMod (Language/Haskell/GhcMod/Target.hs:355)
+    resolveModule (Language/Haskell/GhcMod/Target.hs:359)
+    CompilationUnit (Language/Haskell/GhcMod/Target.hs:389)
+    resolveGmComponents (Language/Haskell/GhcMod/Target.hs:391)
+    needsFallback (Language/Haskell/GhcMod/Target.hs:481)
+    cabalResolvedComponents (Language/Haskell/GhcMod/Target.hs:490)
+  20% (  1 /  5) in 'Language.Haskell.GhcMod.Cradle'
+  Missing documentation for:
+    Module header
+    findCradle' (Language/Haskell/GhcMod/Cradle.hs:36)
+    findSpecCradle (Language/Haskell/GhcMod/Cradle.hs:45)
+    cleanupCradle (Language/Haskell/GhcMod/Cradle.hs:57)
+  31% (  4 / 13) in 'Language.Haskell.GhcMod.Monad'
+  Missing documentation for:
+    Module header
+    runGmOutT (Language/Haskell/GhcMod/Monad.hs:79)
+    runGmOutT' (Language/Haskell/GhcMod/Monad.hs:90)
+    runGmlT (Language/Haskell/GhcMod/Target.hs:108)
+    runGmlT' (Language/Haskell/GhcMod/Target.hs:111)
+    runGmlTWith (Language/Haskell/GhcMod/Target.hs:118)
+    runGmPkgGhc (Language/Haskell/GhcMod/Target.hs:62)
+    withGhcModEnv (Language/Haskell/GhcMod/Monad.hs:55)
+    withGhcModEnv' (Language/Haskell/GhcMod/Monad.hs:61)
+  25% (  1 /  4) in 'Language.Haskell.GhcMod.FillSig'
+  Missing documentation for:
+    Module header
+    refine (Language/Haskell/GhcMod/FillSig.hs:341)
+    auto (Language/Haskell/GhcMod/FillSig.hs:420)
+  67% (  6 /  9) in 'Language.Haskell.GhcMod.Find'
+  Missing documentation for:
+    Module header
+    lookupSym (Language/Haskell/GhcMod/Find.hs:68)
+    isOutdated (Language/Haskell/GhcMod/Find.hs:50)
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Flag'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Language.Haskell.GhcMod.Info'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Lang'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Lint'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Modules'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.PkgDoc'
+  Missing documentation for:
+    Module header
+  46% ( 27 / 59) in 'Language.Haskell.GhcMod.Internal'
+  Missing documentation for:
+    GmlT (Language/Haskell/GhcMod/Monad/Types.hs:154)
+    MonadIO (Language/Haskell/GhcMod/Types.hs:62)
+    GmEnv (Language/Haskell/GhcMod/Monad/Types.hs:228)
+    GhcModEnv (Language/Haskell/GhcMod/Types.hs:178)
+    GhcModState (Language/Haskell/GhcMod/Types.hs:213)
+    CompilerMode (Language/Haskell/GhcMod/Types.hs:221)
+    GhcModLog (Language/Haskell/GhcMod/Types.hs:188)
+    GmLog (Language/Haskell/GhcMod/Monad/Types.hs:300)
+    GmLogLevel (Language/Haskell/GhcMod/Types.hs:279)
+    gmSetLogLevel (Language/Haskell/GhcMod/Logging.hs:44)
+    runGmlT (Language/Haskell/GhcMod/Target.hs:108)
+    runGmlT' (Language/Haskell/GhcMod/Target.hs:111)
+    gmlGetSession (Language/Haskell/GhcMod/Monad/Types.hs:455)
+    gmlSetSession (Language/Haskell/GhcMod/Monad/Types.hs:460)
+    cabalResolvedComponents (Language/Haskell/GhcMod/Target.hs:490)
+    options (Language/Haskell/GhcMod/Monad/Types.hs:524)
+    cradle (Language/Haskell/GhcMod/Monad/Types.hs:530)
+    getCompilerMode (Language/Haskell/GhcMod/Monad/Types.hs:533)
+    setCompilerMode (Language/Haskell/GhcMod/Monad/Types.hs:536)
+    targetGhcOptions (Language/Haskell/GhcMod/Target.hs:155)
+    withOptions (Language/Haskell/GhcMod/Monad/Types.hs:560)
+    gmeDoc (Language/Haskell/GhcMod/Error.hs:55)
+    World (Language/Haskell/GhcMod/World.hs:17)
+    getCurrentWorld (Language/Haskell/GhcMod/World.hs:31)
+    didWorldChange (Language/Haskell/GhcMod/World.hs:48)
+    ModulePath (Language/Haskell/GhcMod/Types.hs:339)
+    GmComponent (Language/Haskell/GhcMod/Types.hs:325)
+    GmComponentType (Language/Haskell/GhcMod/Types.hs:323)
+    GmModuleGraph (Language/Haskell/GhcMod/Types.hs:293)
+    prepareCabalHelper (Language/Haskell/GhcMod/CabalHelper.hs:132)
+    GHandler (Language/Haskell/GhcMod/Error.hs:154)
+    gcatches (Language/Haskell/GhcMod/Error.hs:156)
+  50% (  2 /  4) in 'Language.Haskell.GhcMod.Debug'
+  Missing documentation for:
+    Module header
+    componentInfo (Language/Haskell/GhcMod/Debug.hs:78)
+  80% (  4 /  5) in 'Language.Haskell.GhcMod.Check'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.CaseSplit'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Language.Haskell.GhcMod.Browse'
+  Missing documentation for:
+    Module header
+  33% (  1 /  3) in 'Language.Haskell.GhcMod.Boot'
+  Missing documentation for:
+    Module header
+    preBrowsedModules (Language/Haskell/GhcMod/Boot.hs:17)
+  68% ( 45 / 66) in 'Language.Haskell.GhcMod'
+  Missing documentation for:
+    Project (Language/Haskell/GhcMod/Types.hs:142)
+    Options (Language/Haskell/GhcMod/Types.hs:102)
+    FileMapping (Language/Haskell/GhcMod/Types.hs:73)
+    GmLogLevel (Language/Haskell/GhcMod/Types.hs:279)
+    increaseLogLevel (Language/Haskell/GhcMod/Logging.hs:53)
+    decreaseLogLevel (Language/Haskell/GhcMod/Logging.hs:57)
+    gmSetLogLevel (Language/Haskell/GhcMod/Logging.hs:44)
+    GhcModError (Language/Haskell/GhcMod/Types.hs:361)
+    GhcModT (Language/Haskell/GhcMod/Monad/Types.hs:120)
+    withOptions (Language/Haskell/GhcMod/Monad/Types.hs:560)
+    componentInfo (Language/Haskell/GhcMod/Debug.hs:78)
+    refine (Language/Haskell/GhcMod/FillSig.hs:341)
+    auto (Language/Haskell/GhcMod/FillSig.hs:420)
+    isOutdated (Language/Haskell/GhcMod/Find.hs:50)
+    gmPutStr (Language/Haskell/GhcMod/Output.hs:82)
+    gmErrStr (Language/Haskell/GhcMod/Output.hs:82)
+    gmPutStrLn (Language/Haskell/GhcMod/Output.hs:82)
+    gmErrStrLn (Language/Haskell/GhcMod/Output.hs:82)
+    loadMappedFile (Language/Haskell/GhcMod/FileMapping.hs:23)
+    loadMappedFileSource (Language/Haskell/GhcMod/FileMapping.hs:26)
+    unloadMappedFile (Language/Haskell/GhcMod/FileMapping.hs:60)
+Warning: Language.Haskell.GhcMod.Convert: could not find link destinations for:
+    ToString
+Warning: Language.Haskell.GhcMod.Logger: could not find link destinations for:
+    GmPprEnvM
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/ghc-mod/index.html
+Preprocessing executable 'ghc-mod' for ghc-mod-5.4.0.0...
+Preprocessing executable 'ghc-modi' for ghc-mod-5.4.0.0...
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-ghc-mod-5.4.06002468971618907920.0
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/ghc-mod-5.4.0.0-CavDbEgWVNI5womKeJYS5s
+Installing executable(s) in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/bin
+Registering ghc-mod-5.4.0.0...

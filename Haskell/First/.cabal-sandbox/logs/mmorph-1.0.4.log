@@ -1,0 +1,151 @@
+Configuring mmorph-1.0.4...
+Building mmorph-1.0.4...
+Preprocessing library mmorph-1.0.4...
+[1 of 2] Compiling Control.Monad.Morph ( src/Control/Monad/Morph.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Morph.o )
+
+src/Control/Monad/Morph.hs:76:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+src/Control/Monad/Morph.hs:116:20: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:19: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:34: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:11: Warning:
+    In the use of type constructor or class ‘E.Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:33: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:242:17: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:14: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:30: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[2 of 2] Compiling Control.Monad.Trans.Compose ( src/Control/Monad/Trans/Compose.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Trans/Compose.o )
+[1 of 2] Compiling Control.Monad.Morph ( src/Control/Monad/Morph.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Morph.p_o )
+
+src/Control/Monad/Morph.hs:76:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+src/Control/Monad/Morph.hs:116:20: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:19: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:34: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:11: Warning:
+    In the use of type constructor or class ‘E.Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:33: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:242:17: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:14: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:30: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[2 of 2] Compiling Control.Monad.Trans.Compose ( src/Control/Monad/Trans/Compose.hs, dist/dist-sandbox-5bf6cc0d/build/Control/Monad/Trans/Compose.p_o )
+In-place registering mmorph-1.0.4...
+Running Haddock for mmorph-1.0.4...
+Preprocessing library mmorph-1.0.4...
+
+src/Control/Monad/Morph.hs:76:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+src/Control/Monad/Morph.hs:116:20: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:19: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:117:34: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:11: Warning:
+    In the use of type constructor or class ‘E.Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:241:33: Warning:
+    In the use of type constructor or class ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:242:17: Warning:
+    In the use of data constructor ‘E.ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:14: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Control/Monad/Morph.hs:243:30: Warning:
+    In the use of ‘E.runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+Haddock coverage:
+ 100% ( 22 / 22) in 'Control.Monad.Morph'
+ 100% (  3 /  3) in 'Control.Monad.Trans.Compose'
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/mmorph/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-mmorph-1.01194314738318153057.4
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/mmorph-1.0.4-8dNpUU8QFPe77rrwKAb20b
+Registering mmorph-1.0.4...

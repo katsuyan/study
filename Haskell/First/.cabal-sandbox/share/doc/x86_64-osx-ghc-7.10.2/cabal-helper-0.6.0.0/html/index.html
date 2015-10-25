@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>cabal-helper-0.6.0.0: Simple interface to some of Cabal's configuration state used by ghc-mod</title><link href="ocean.css" rel="stylesheet" type="text/css" title="Ocean" /><script src="haddock-util.js" type="text/javascript"></script><script type="text/javascript">//<![CDATA[
+window.onload = function () {pageLoad();};
+//]]>
+</script></head><body><div id="package-header"><ul class="links" id="page-menu"><li><a href="index.html">Contents</a></li><li><a href="doc-index.html">Index</a></li></ul><p class="caption">cabal-helper-0.6.0.0: Simple interface to some of Cabal's configuration state used by ghc-mod</p></div><div id="content"><div id="description"><h1>cabal-helper-0.6.0.0: Simple interface to some of Cabal's configuration state used by ghc-mod</h1><div class="doc"><p><code>cabal-helper</code> provides a library which wraps the internal use of
+anexecutable to lift the restrictions imposed by linking against versions of
+GHC before <code>7.10</code>. This has the pleasant side effect of isolating the user
+from having to deal with Cabal version changes manually as <code>cabal-helper</code>
+can simply recompile it's helper program automatically as needed.</p><p><code>cabal-helper</code> uses a wrapper executable to compile the actual cabal-helper
+executable at runtime while linking against an arbitrary version of
+Cabal. This runtime-compiled helper executable is then used to extract
+various bits and peices from Cabal's on disk state (dist/setup-config)
+written by it's configure command.</p><p>In addition to this the wrapper executable also supports installing any
+version of Cabal from hackage in case it cannot be found in any available
+package database. The wrapper installs these instances of the Cabal library
+into a private package database so as to not interfere with the user's
+packages.</p><p>Furthermore the wrapper supports one special case namely reading a state
+file for Cabal itself. This is needed as Cabal compiles it's Setup.hs using
+itself and not using any version of Cabal installed in any package database.</p><p><code>cabal-helper</code> can compile with <code>Cabal &gt;= 1.14</code> but requires <code>Cabal &gt;= 1.16</code>
+at runtime.</p></div></div><div id="module-list"><p class="caption">Modules</p><ul><li><span id="control.n.1" class="module collapser" onclick="toggleSection('n.1')">Distribution</span><ul id="section.n.1" class="show"><li><span class="module"><a href="Distribution-Helper.html">Distribution.Helper</a></span></li></ul></li></ul></div></div><div id="footer"><p>Produced by <a href="http://www.haskell.org/haddock/">Haddock</a> version 2.16.1</p></div></body></html>

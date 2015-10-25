@@ -1,0 +1,37 @@
+Configuring temporary-1.2.0.3...
+Building temporary-1.2.0.3...
+Preprocessing library temporary-1.2.0.3...
+[1 of 3] Compiling Distribution.Compat.Exception ( Distribution/Compat/Exception.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Compat/Exception.o )
+[2 of 3] Compiling Distribution.Compat.TempFile ( Distribution/Compat/TempFile.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Compat/TempFile.o )
+[3 of 3] Compiling System.IO.Temp   ( System/IO/Temp.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Temp.o )
+[1 of 3] Compiling Distribution.Compat.Exception ( Distribution/Compat/Exception.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Compat/Exception.p_o )
+[2 of 3] Compiling Distribution.Compat.TempFile ( Distribution/Compat/TempFile.hs, dist/dist-sandbox-5bf6cc0d/build/Distribution/Compat/TempFile.p_o )
+[3 of 3] Compiling System.IO.Temp   ( System/IO/Temp.hs, dist/dist-sandbox-5bf6cc0d/build/System/IO/Temp.p_o )
+In-place registering temporary-1.2.0.3...
+Running Haddock for temporary-1.2.0.3...
+Preprocessing library temporary-1.2.0.3...
+Haddock coverage:
+   0% (  0 /  5) in 'Distribution.Compat.Exception'
+  Missing documentation for:
+    Module header
+    onException (Distribution/Compat/Exception.hs:19)
+    catchIO (Distribution/Compat/Exception.hs:34)
+    catchExit (Distribution/Compat/Exception.hs:41)
+    throwIOIO (Distribution/Compat/Exception.hs:27)
+  40% (  2 /  5) in 'Distribution.Compat.TempFile'
+  Missing documentation for:
+    Module header
+    openNewBinaryFile (Distribution/Compat/TempFile.hs:112)
+    createTempDirectory (Distribution/Compat/TempFile.hs:191)
+  67% (  6 /  9) in 'System.IO.Temp'
+  Missing documentation for:
+    Module header
+    openNewBinaryFile (Distribution/Compat/TempFile.hs:112)
+    createTempDirectory (Distribution/Compat/TempFile.hs:191)
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/temporary/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-temporary-1.2.0836045813436476770.3
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/temporary-1.2.0.3-Il0r9HZboDhGin7P716nyP
+Registering temporary-1.2.0.3...

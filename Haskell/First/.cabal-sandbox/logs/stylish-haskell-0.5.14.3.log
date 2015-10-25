@@ -1,0 +1,213 @@
+Configuring stylish-haskell-0.5.14.3...
+Building stylish-haskell-0.5.14.3...
+Preprocessing library stylish-haskell-0.5.14.3...
+[ 1 of 15] Compiling Language.Haskell.Stylish.Block ( src/Language/Haskell/Stylish/Block.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Block.o )
+[ 2 of 15] Compiling Language.Haskell.Stylish.Editor ( src/Language/Haskell/Stylish/Editor.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Editor.o )
+[ 3 of 15] Compiling Paths_stylish_haskell ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_stylish_haskell.o )
+[ 4 of 15] Compiling Language.Haskell.Stylish.Step ( src/Language/Haskell/Stylish/Step.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step.o )
+[ 5 of 15] Compiling Language.Haskell.Stylish.Step.Tabs ( src/Language/Haskell/Stylish/Step/Tabs.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Tabs.o )
+[ 6 of 15] Compiling Language.Haskell.Stylish.Step.TrailingWhitespace ( src/Language/Haskell/Stylish/Step/TrailingWhitespace.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/TrailingWhitespace.o )
+[ 7 of 15] Compiling Language.Haskell.Stylish.Util ( src/Language/Haskell/Stylish/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Util.o )
+[ 8 of 15] Compiling Language.Haskell.Stylish.Step.Imports ( src/Language/Haskell/Stylish/Step/Imports.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Imports.o )
+[ 9 of 15] Compiling Language.Haskell.Stylish.Step.LanguagePragmas ( src/Language/Haskell/Stylish/Step/LanguagePragmas.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/LanguagePragmas.o )
+[10 of 15] Compiling Language.Haskell.Stylish.Step.Records ( src/Language/Haskell/Stylish/Step/Records.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Records.o )
+[11 of 15] Compiling Language.Haskell.Stylish.Step.UnicodeSyntax ( src/Language/Haskell/Stylish/Step/UnicodeSyntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/UnicodeSyntax.o )
+[12 of 15] Compiling Language.Haskell.Stylish.Verbose ( src/Language/Haskell/Stylish/Verbose.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Verbose.o )
+[13 of 15] Compiling Language.Haskell.Stylish.Config ( src/Language/Haskell/Stylish/Config.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Config.o )
+
+src/Language/Haskell/Stylish/Config.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 15] Compiling Language.Haskell.Stylish.Parse ( src/Language/Haskell/Stylish/Parse.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Parse.o )
+[15 of 15] Compiling Language.Haskell.Stylish ( src/Language/Haskell/Stylish.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish.o )
+
+src/Language/Haskell/Stylish.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 1 of 15] Compiling Language.Haskell.Stylish.Block ( src/Language/Haskell/Stylish/Block.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Block.p_o )
+[ 2 of 15] Compiling Language.Haskell.Stylish.Editor ( src/Language/Haskell/Stylish/Editor.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Editor.p_o )
+[ 3 of 15] Compiling Paths_stylish_haskell ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_stylish_haskell.p_o )
+[ 4 of 15] Compiling Language.Haskell.Stylish.Step ( src/Language/Haskell/Stylish/Step.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step.p_o )
+[ 5 of 15] Compiling Language.Haskell.Stylish.Step.Tabs ( src/Language/Haskell/Stylish/Step/Tabs.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Tabs.p_o )
+[ 6 of 15] Compiling Language.Haskell.Stylish.Step.TrailingWhitespace ( src/Language/Haskell/Stylish/Step/TrailingWhitespace.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/TrailingWhitespace.p_o )
+[ 7 of 15] Compiling Language.Haskell.Stylish.Util ( src/Language/Haskell/Stylish/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Util.p_o )
+[ 8 of 15] Compiling Language.Haskell.Stylish.Step.Imports ( src/Language/Haskell/Stylish/Step/Imports.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Imports.p_o )
+[ 9 of 15] Compiling Language.Haskell.Stylish.Step.LanguagePragmas ( src/Language/Haskell/Stylish/Step/LanguagePragmas.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/LanguagePragmas.p_o )
+[10 of 15] Compiling Language.Haskell.Stylish.Step.Records ( src/Language/Haskell/Stylish/Step/Records.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/Records.p_o )
+[11 of 15] Compiling Language.Haskell.Stylish.Step.UnicodeSyntax ( src/Language/Haskell/Stylish/Step/UnicodeSyntax.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Step/UnicodeSyntax.p_o )
+[12 of 15] Compiling Language.Haskell.Stylish.Verbose ( src/Language/Haskell/Stylish/Verbose.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Verbose.p_o )
+[13 of 15] Compiling Language.Haskell.Stylish.Config ( src/Language/Haskell/Stylish/Config.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Config.p_o )
+
+src/Language/Haskell/Stylish/Config.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 15] Compiling Language.Haskell.Stylish.Parse ( src/Language/Haskell/Stylish/Parse.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish/Parse.p_o )
+[15 of 15] Compiling Language.Haskell.Stylish ( src/Language/Haskell/Stylish.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/Stylish.p_o )
+
+src/Language/Haskell/Stylish.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+In-place registering stylish-haskell-0.5.14.3...
+Preprocessing executable 'stylish-haskell' for stylish-haskell-0.5.14.3...
+[ 1 of 16] Compiling Paths_stylish_haskell ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Paths_stylish_haskell.o )
+[ 2 of 16] Compiling Language.Haskell.Stylish.Verbose ( src/Language/Haskell/Stylish/Verbose.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Verbose.o )
+[ 3 of 16] Compiling Language.Haskell.Stylish.Step ( src/Language/Haskell/Stylish/Step.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step.o )
+[ 4 of 16] Compiling Language.Haskell.Stylish.Step.Tabs ( src/Language/Haskell/Stylish/Step/Tabs.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/Tabs.o )
+[ 5 of 16] Compiling Language.Haskell.Stylish.Step.TrailingWhitespace ( src/Language/Haskell/Stylish/Step/TrailingWhitespace.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/TrailingWhitespace.o )
+[ 6 of 16] Compiling Language.Haskell.Stylish.Util ( src/Language/Haskell/Stylish/Util.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Util.o )
+[ 7 of 16] Compiling Language.Haskell.Stylish.Block ( src/Language/Haskell/Stylish/Block.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Block.o )
+[ 8 of 16] Compiling Language.Haskell.Stylish.Editor ( src/Language/Haskell/Stylish/Editor.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Editor.o )
+[ 9 of 16] Compiling Language.Haskell.Stylish.Step.Records ( src/Language/Haskell/Stylish/Step/Records.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/Records.o )
+[10 of 16] Compiling Language.Haskell.Stylish.Step.Imports ( src/Language/Haskell/Stylish/Step/Imports.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/Imports.o )
+[11 of 16] Compiling Language.Haskell.Stylish.Step.LanguagePragmas ( src/Language/Haskell/Stylish/Step/LanguagePragmas.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/LanguagePragmas.o )
+[12 of 16] Compiling Language.Haskell.Stylish.Step.UnicodeSyntax ( src/Language/Haskell/Stylish/Step/UnicodeSyntax.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Step/UnicodeSyntax.o )
+[13 of 16] Compiling Language.Haskell.Stylish.Config ( src/Language/Haskell/Stylish/Config.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Config.o )
+
+src/Language/Haskell/Stylish/Config.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[14 of 16] Compiling Language.Haskell.Stylish.Parse ( src/Language/Haskell/Stylish/Parse.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish/Parse.o )
+[15 of 16] Compiling Language.Haskell.Stylish ( src/Language/Haskell/Stylish.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Language/Haskell/Stylish.o )
+
+src/Language/Haskell/Stylish.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[16 of 16] Compiling Main             ( src/Main.hs, dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/stylish-haskell/stylish-haskell ...
+Running Haddock for stylish-haskell-0.5.14.3...
+Preprocessing library stylish-haskell-0.5.14.3...
+
+src/Language/Haskell/Stylish/Config.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/Stylish.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+Haddock coverage:
+  17% (  2 / 12) in 'Language.Haskell.Stylish.Block'
+  Missing documentation for:
+    Module header
+    LineBlock (src/Language/Haskell/Stylish/Block.hs:31)
+    SpanBlock (src/Language/Haskell/Stylish/Block.hs:35)
+    blockLength (src/Language/Haskell/Stylish/Block.hs:39)
+    linesFromSrcSpan (src/Language/Haskell/Stylish/Block.hs:44)
+    spanFromSrcSpan (src/Language/Haskell/Stylish/Block.hs:51)
+    moveBlock (src/Language/Haskell/Stylish/Block.hs:58)
+    adjacent (src/Language/Haskell/Stylish/Block.hs:63)
+    merge (src/Language/Haskell/Stylish/Block.hs:70)
+    overlapping (src/Language/Haskell/Stylish/Block.hs:75)
+  88% (  7 /  8) in 'Language.Haskell.Stylish.Editor'
+  Missing documentation for:
+    applyChanges (src/Language/Haskell/Stylish/Editor.hs:39)
+   0% (  0 /  8) in 'Paths_stylish_haskell'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:15)
+    getBinDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:25)
+    getLibDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:25)
+    getDataDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:25)
+    getLibexecDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:25)
+    getDataFileName (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:32)
+    getSysconfDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:25)
+  20% (  1 /  5) in 'Language.Haskell.Stylish.Step'
+  Missing documentation for:
+    Module header
+    Lines (src/Language/Haskell/Stylish/Step.hs:15)
+    Step (src/Language/Haskell/Stylish/Step.hs:24)
+    makeStep (src/Language/Haskell/Stylish/Step.hs:31)
+   0% (  0 /  2) in 'Language.Haskell.Stylish.Step.Tabs'
+  Missing documentation for:
+    Module header
+    step (src/Language/Haskell/Stylish/Step/Tabs.hs:20)
+   0% (  0 /  2) in 'Language.Haskell.Stylish.Step.TrailingWhitespace'
+  Missing documentation for:
+    Module header
+    step (src/Language/Haskell/Stylish/Step/TrailingWhitespace.hs:21)
+   0% (  0 / 10) in 'Language.Haskell.Stylish.Util'
+  Missing documentation for:
+    Module header
+    nameToString (src/Language/Haskell/Stylish/Util.hs:30)
+    indent (src/Language/Haskell/Stylish/Util.hs:36)
+    padRight (src/Language/Haskell/Stylish/Util.hs:41)
+    everything (src/Language/Haskell/Stylish/Util.hs:46)
+    infoPoints (src/Language/Haskell/Stylish/Util.hs:51)
+    wrap (src/Language/Haskell/Stylish/Util.hs:56)
+    withHead (src/Language/Haskell/Stylish/Util.hs:79)
+    withLast (src/Language/Haskell/Stylish/Util.hs:85)
+    withInit (src/Language/Haskell/Stylish/Util.hs:92)
+   0% (  0 /  3) in 'Language.Haskell.Stylish.Step.Imports'
+  Missing documentation for:
+    Module header
+    Align (src/Language/Haskell/Stylish/Step/Imports.hs:25)
+    step (src/Language/Haskell/Stylish/Step/Imports.hs:154)
+  40% (  2 /  5) in 'Language.Haskell.Stylish.Step.LanguagePragmas'
+  Missing documentation for:
+    Module header
+    Style (src/Language/Haskell/Stylish/Step/LanguagePragmas.hs:24)
+    step (src/Language/Haskell/Stylish/Step/LanguagePragmas.hs:103)
+   0% (  0 /  2) in 'Language.Haskell.Stylish.Step.Records'
+  Missing documentation for:
+    Module header
+    step (src/Language/Haskell/Stylish/Step/Records.hs:75)
+   0% (  0 /  2) in 'Language.Haskell.Stylish.Step.UnicodeSyntax'
+  Missing documentation for:
+    Module header
+    step (src/Language/Haskell/Stylish/Step/UnicodeSyntax.hs:102)
+   0% (  0 /  3) in 'Language.Haskell.Stylish.Verbose'
+  Missing documentation for:
+    Module header
+    Verbose (src/Language/Haskell/Stylish/Verbose.hs:13)
+    makeVerbose (src/Language/Haskell/Stylish/Verbose.hs:17)
+   0% (  0 /  6) in 'Language.Haskell.Stylish.Config'
+  Missing documentation for:
+    Module header
+    Extensions (src/Language/Haskell/Stylish/Config.hs:41)
+    Config (src/Language/Haskell/Stylish/Config.hs:45)
+    defaultConfigFilePath (src/Language/Haskell/Stylish/Config.hs:68)
+    configFilePath (src/Language/Haskell/Stylish/Config.hs:73)
+    loadConfig (src/Language/Haskell/Stylish/Config.hs:97)
+  50% (  1 /  2) in 'Language.Haskell.Stylish.Parse'
+  Missing documentation for:
+    Module header
+  22% (  6 / 27) in 'Language.Haskell.Stylish'
+  Missing documentation for:
+    Module header
+    runSteps (src/Language/Haskell/Stylish.hs:90)
+    imports (src/Language/Haskell/Stylish.hs:47)
+    languagePragmas (src/Language/Haskell/Stylish.hs:54)
+    records (src/Language/Haskell/Stylish.hs:62)
+    tabs (src/Language/Haskell/Stylish.hs:67)
+    trailingWhitespace (src/Language/Haskell/Stylish.hs:73)
+    unicodeSyntax (src/Language/Haskell/Stylish.hs:78)
+    Align (src/Language/Haskell/Stylish/Step/Imports.hs:25)
+    Style (src/Language/Haskell/Stylish/Step/LanguagePragmas.hs:24)
+    stepName (src/Language/Haskell/Stylish/Step.hs:25)
+    Extensions (src/Language/Haskell/Stylish/Config.hs:41)
+    Config (src/Language/Haskell/Stylish/Config.hs:45)
+    defaultConfigFilePath (src/Language/Haskell/Stylish/Config.hs:68)
+    configFilePath (src/Language/Haskell/Stylish/Config.hs:73)
+    loadConfig (src/Language/Haskell/Stylish/Config.hs:97)
+    Verbose (src/Language/Haskell/Stylish/Verbose.hs:13)
+    makeVerbose (src/Language/Haskell/Stylish/Verbose.hs:17)
+    version (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_stylish_haskell.hs:15)
+    Lines (src/Language/Haskell/Stylish/Step.hs:15)
+    Step (src/Language/Haskell/Stylish/Step.hs:24)
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/stylish-haskell/index.html
+Preprocessing executable 'stylish-haskell' for stylish-haskell-0.5.14.3...
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-stylish-haskell-0.5.14175471174847424385.3
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/stylish-haskell-0.5.14.3-0OXDhrpeAGM2g2WShPeqQ8
+Installing executable(s) in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/bin
+Registering stylish-haskell-0.5.14.3...

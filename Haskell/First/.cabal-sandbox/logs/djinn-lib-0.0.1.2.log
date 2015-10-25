@@ -1,0 +1,74 @@
+Configuring djinn-lib-0.0.1.2...
+Building djinn-lib-0.0.1.2...
+Preprocessing library djinn-lib-0.0.1.2...
+[1 of 4] Compiling Djinn.LJTFormula ( src/Djinn/LJTFormula.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/LJTFormula.o )
+[2 of 4] Compiling Djinn.LJT        ( src/Djinn/LJT.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/LJT.o )
+[3 of 4] Compiling Djinn.HTypes     ( src/Djinn/HTypes.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/HTypes.o )
+[4 of 4] Compiling Djinn.HCheck     ( src/Djinn/HCheck.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/HCheck.o )
+[1 of 4] Compiling Djinn.LJTFormula ( src/Djinn/LJTFormula.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/LJTFormula.p_o )
+[2 of 4] Compiling Djinn.LJT        ( src/Djinn/LJT.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/LJT.p_o )
+[3 of 4] Compiling Djinn.HTypes     ( src/Djinn/HTypes.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/HTypes.p_o )
+[4 of 4] Compiling Djinn.HCheck     ( src/Djinn/HCheck.hs, dist/dist-sandbox-5bf6cc0d/build/Djinn/HCheck.p_o )
+In-place registering djinn-lib-0.0.1.2...
+Running Haddock for djinn-lib-0.0.1.2...
+Preprocessing library djinn-lib-0.0.1.2...
+Haddock coverage:
+   0% (  0 / 13) in 'Djinn.LJTFormula'
+  Missing documentation for:
+    Module header
+    Symbol (src/Djinn/LJTFormula.hs:25)
+    Formula (src/Djinn/LJTFormula.hs:34)
+    <-> (src/Djinn/LJTFormula.hs:40)
+    & (src/Djinn/LJTFormula.hs:43)
+    |: (src/Djinn/LJTFormula.hs:46)
+    fnot (src/Djinn/LJTFormula.hs:49)
+    false (src/Djinn/LJTFormula.hs:52)
+    true (src/Djinn/LJTFormula.hs:55)
+    ConsDesc (src/Djinn/LJTFormula.hs:31)
+    Term (src/Djinn/LJTFormula.hs:79)
+    applys (src/Djinn/LJTFormula.hs:99)
+    freeVars (src/Djinn/LJTFormula.hs:102)
+  17% (  1 /  6) in 'Djinn.LJT'
+  Missing documentation for:
+    Module header
+    provable (src/Djinn/LJT.hs:53)
+    prove (src/Djinn/LJT.hs:56)
+    Proof (src/Djinn/LJT.hs:66)
+    MoreSolutions (src/Djinn/LJT.hs:51)
+   0% (  0 / 23) in 'Djinn.HTypes'
+  Missing documentation for:
+    Module header
+    HKind (src/Djinn/HTypes.hs:42)
+    HType (src/Djinn/HTypes.hs:47)
+    HSymbol (src/Djinn/HTypes.hs:40)
+    hTypeToFormula (src/Djinn/HTypes.hs:176)
+    pHSymbol (src/Djinn/HTypes.hs:119)
+    pHType (src/Djinn/HTypes.hs:90)
+    pHDataType (src/Djinn/HTypes.hs:95)
+    pHTAtom (src/Djinn/HTypes.hs:103)
+    pHKind (src/Djinn/HTypes.hs:145)
+    prHSymbolOp (src/Djinn/HTypes.hs:234)
+    htNot (src/Djinn/HTypes.hs:60)
+    isHTUnion (src/Djinn/HTypes.hs:56)
+    getHTVars (src/Djinn/HTypes.hs:166)
+    substHT (src/Djinn/HTypes.hs:191)
+    HClause (src/Djinn/HTypes.hs:209)
+    HPat (src/Djinn/HTypes.hs:212)
+    HExpr (src/Djinn/HTypes.hs:219)
+    hPrClause (src/Djinn/HTypes.hs:227)
+    hPrExpr (src/Djinn/HTypes.hs:245)
+    termToHExpr (src/Djinn/HTypes.hs:273)
+    termToHClause (src/Djinn/HTypes.hs:461)
+    getBinderVars (src/Djinn/HTypes.hs:495)
+   0% (  0 /  3) in 'Djinn.HCheck'
+  Missing documentation for:
+    Module header
+    htCheckEnv (src/Djinn/HCheck.hs:62)
+    htCheckType (src/Djinn/HCheck.hs:55)
+Documentation created:
+dist/dist-sandbox-5bf6cc0d/doc/html/djinn-lib/index.html
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-djinn-lib-0.0.16441594889688008.2
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/djinn-lib-0.0.1.2-90Jpivwn17JIksJR6o4p01
+Registering djinn-lib-0.0.1.2...

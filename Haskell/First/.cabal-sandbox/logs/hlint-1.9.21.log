@@ -1,0 +1,501 @@
+Configuring hlint-1.9.21...
+Building hlint-1.9.21...
+Preprocessing library hlint-1.9.21...
+[ 1 of 45] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Util.o )
+[ 2 of 45] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-5bf6cc0d/build/Test/InputOutput.o )
+[ 3 of 45] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Type.o )
+[ 4 of 45] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/FreeVars.o )
+[ 5 of 45] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Util.o )
+[ 6 of 45] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Match.o )
+[ 7 of 45] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Scope.o )
+[ 8 of 45] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-5bf6cc0d/build/HsColour.o )
+[ 9 of 45] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-5bf6cc0d/build/Parallel.o )
+[10 of 45] Compiling Paths_hlint      ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_hlint.o )
+[11 of 45] Compiling Util             ( src/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Util.o )
+[12 of 45] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-5bf6cc0d/build/CmdLine.o )
+[13 of 45] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Bracket.o )
+[14 of 45] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Evaluate.o )
+[15 of 45] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/All.o )
+[16 of 45] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Util.o )
+[17 of 45] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-5bf6cc0d/build/Settings.o )
+[18 of 45] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Proof.o )
+[19 of 45] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Translate.o )
+[20 of 45] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-5bf6cc0d/build/Idea.o )
+[21 of 45] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Type.o )
+[22 of 45] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Match.o )
+[23 of 45] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/List.o )
+[24 of 45] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/ListRec.o )
+[25 of 45] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Monad.o )
+[26 of 45] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Lambda.o )
+[27 of 45] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Bracket.o )
+[28 of 45] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Naming.o )
+[29 of 45] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Structure.o )
+[30 of 45] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Import.o )
+[31 of 45] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Pragma.o )
+[32 of 45] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Extensions.o )
+[33 of 45] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Duplicate.o )
+[34 of 45] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Comment.o )
+[35 of 45] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Unsafe.o )
+[36 of 45] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/All.o )
+[37 of 45] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-5bf6cc0d/build/Apply.o )
+[38 of 45] Compiling Language.Haskell.HLint3 ( src/Language/Haskell/HLint3.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint3.o )
+[39 of 45] Compiling Report           ( src/Report.hs, dist/dist-sandbox-5bf6cc0d/build/Report.o )
+[40 of 45] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Annotations.o )
+[41 of 45] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-5bf6cc0d/build/Test/All.o )
+[42 of 45] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint2.o )
+[43 of 45] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-5bf6cc0d/build/Grep.o )
+[44 of 45] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/HLint.o )
+[45 of 45] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint.o )
+[ 1 of 45] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Util.p_o )
+[ 2 of 45] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-5bf6cc0d/build/Test/InputOutput.p_o )
+[ 3 of 45] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Type.p_o )
+[ 4 of 45] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/FreeVars.p_o )
+[ 5 of 45] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Util.p_o )
+[ 6 of 45] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Match.p_o )
+[ 7 of 45] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Scope.p_o )
+[ 8 of 45] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-5bf6cc0d/build/HsColour.p_o )
+[ 9 of 45] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-5bf6cc0d/build/Parallel.p_o )
+[10 of 45] Compiling Paths_hlint      ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs, dist/dist-sandbox-5bf6cc0d/build/Paths_hlint.p_o )
+[11 of 45] Compiling Util             ( src/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Util.p_o )
+[12 of 45] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-5bf6cc0d/build/CmdLine.p_o )
+[13 of 45] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Bracket.p_o )
+[14 of 45] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/Evaluate.p_o )
+[15 of 45] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-5bf6cc0d/build/HSE/All.p_o )
+[16 of 45] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Util.p_o )
+[17 of 45] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-5bf6cc0d/build/Settings.p_o )
+[18 of 45] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Proof.p_o )
+[19 of 45] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Translate.p_o )
+[20 of 45] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-5bf6cc0d/build/Idea.p_o )
+[21 of 45] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Type.p_o )
+[22 of 45] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Match.p_o )
+[23 of 45] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/List.p_o )
+[24 of 45] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/ListRec.p_o )
+[25 of 45] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Monad.p_o )
+[26 of 45] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Lambda.p_o )
+[27 of 45] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Bracket.p_o )
+[28 of 45] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Naming.p_o )
+[29 of 45] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Structure.p_o )
+[30 of 45] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Import.p_o )
+[31 of 45] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Pragma.p_o )
+[32 of 45] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Extensions.p_o )
+[33 of 45] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Duplicate.p_o )
+[34 of 45] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Comment.p_o )
+[35 of 45] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/Unsafe.p_o )
+[36 of 45] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-5bf6cc0d/build/Hint/All.p_o )
+[37 of 45] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-5bf6cc0d/build/Apply.p_o )
+[38 of 45] Compiling Language.Haskell.HLint3 ( src/Language/Haskell/HLint3.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint3.p_o )
+[39 of 45] Compiling Report           ( src/Report.hs, dist/dist-sandbox-5bf6cc0d/build/Report.p_o )
+[40 of 45] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-5bf6cc0d/build/Test/Annotations.p_o )
+[41 of 45] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-5bf6cc0d/build/Test/All.p_o )
+[42 of 45] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint2.p_o )
+[43 of 45] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-5bf6cc0d/build/Grep.p_o )
+[44 of 45] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/HLint.p_o )
+[45 of 45] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/Language/Haskell/HLint.p_o )
+In-place registering hlint-1.9.21...
+Preprocessing executable 'hlint' for hlint-1.9.21...
+[ 1 of 45] Compiling Test.Util        ( src/Test/Util.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/Util.o )
+[ 2 of 45] Compiling Test.InputOutput ( src/Test/InputOutput.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/InputOutput.o )
+[ 3 of 45] Compiling HSE.Type         ( src/HSE/Type.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Type.o )
+[ 4 of 45] Compiling HSE.Util         ( src/HSE/Util.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Util.o )
+[ 5 of 45] Compiling HSE.Scope        ( src/HSE/Scope.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Scope.o )
+[ 6 of 45] Compiling HSE.Match        ( src/HSE/Match.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Match.o )
+[ 7 of 45] Compiling HSE.FreeVars     ( src/HSE/FreeVars.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/FreeVars.o )
+[ 8 of 45] Compiling Parallel         ( src/Parallel.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Parallel.o )
+[ 9 of 45] Compiling Util             ( src/Util.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Util.o )
+[10 of 45] Compiling HSE.Bracket      ( src/HSE/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Bracket.o )
+[11 of 45] Compiling HSE.Evaluate     ( src/HSE/Evaluate.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/Evaluate.o )
+[12 of 45] Compiling HsColour         ( src/HsColour.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HsColour.o )
+[13 of 45] Compiling Paths_hlint      ( dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Paths_hlint.o )
+[14 of 45] Compiling CmdLine          ( src/CmdLine.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/CmdLine.o )
+[15 of 45] Compiling HSE.All          ( src/HSE/All.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HSE/All.o )
+[16 of 45] Compiling Settings         ( src/Settings.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Settings.o )
+[17 of 45] Compiling Idea             ( src/Idea.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Idea.o )
+[18 of 45] Compiling Hint.Type        ( src/Hint/Type.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Type.o )
+[19 of 45] Compiling Hint.Bracket     ( src/Hint/Bracket.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Bracket.o )
+[20 of 45] Compiling Hint.Comment     ( src/Hint/Comment.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Comment.o )
+[21 of 45] Compiling Hint.Duplicate   ( src/Hint/Duplicate.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Duplicate.o )
+[22 of 45] Compiling Hint.Extensions  ( src/Hint/Extensions.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Extensions.o )
+[23 of 45] Compiling Hint.Import      ( src/Hint/Import.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Import.o )
+[24 of 45] Compiling Hint.List        ( src/Hint/List.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/List.o )
+[25 of 45] Compiling Hint.Match       ( src/Hint/Match.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Match.o )
+[26 of 45] Compiling Hint.Monad       ( src/Hint/Monad.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Monad.o )
+[27 of 45] Compiling Hint.Naming      ( src/Hint/Naming.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Naming.o )
+[28 of 45] Compiling Hint.Pragma      ( src/Hint/Pragma.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Pragma.o )
+[29 of 45] Compiling Hint.Structure   ( src/Hint/Structure.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Structure.o )
+[30 of 45] Compiling Hint.Unsafe      ( src/Hint/Unsafe.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Unsafe.o )
+[31 of 45] Compiling Hint.Util        ( src/Hint/Util.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Util.o )
+[32 of 45] Compiling Hint.Lambda      ( src/Hint/Lambda.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/Lambda.o )
+[33 of 45] Compiling Hint.ListRec     ( src/Hint/ListRec.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/ListRec.o )
+[34 of 45] Compiling Hint.All         ( src/Hint/All.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Hint/All.o )
+[35 of 45] Compiling Apply            ( src/Apply.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Apply.o )
+[36 of 45] Compiling Test.Annotations ( src/Test/Annotations.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/Annotations.o )
+[37 of 45] Compiling Test.Proof       ( src/Test/Proof.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/Proof.o )
+[38 of 45] Compiling Report           ( src/Report.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Report.o )
+[39 of 45] Compiling Test.Translate   ( src/Test/Translate.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/Translate.o )
+[40 of 45] Compiling Test.All         ( src/Test/All.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Test/All.o )
+[41 of 45] Compiling Language.Haskell.HLint2 ( src/Language/Haskell/HLint2.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Language/Haskell/HLint2.o )
+[42 of 45] Compiling Grep             ( src/Grep.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Grep.o )
+[43 of 45] Compiling HLint            ( src/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/HLint.o )
+[44 of 45] Compiling Language.Haskell.HLint ( src/Language/Haskell/HLint.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Language/Haskell/HLint.o )
+[45 of 45] Compiling Main             ( src/Main.hs, dist/dist-sandbox-5bf6cc0d/build/hlint/hlint-tmp/Main.o )
+Linking dist/dist-sandbox-5bf6cc0d/build/hlint/hlint ...
+Running Haddock for hlint-1.9.21...
+Preprocessing library hlint-1.9.21...
+Haddock coverage:
+  17% (  1 /  6) in 'Test.Util'
+  Missing documentation for:
+    Module header
+    tested (src/Test/Util.hs:44)
+    passed (src/Test/Util.hs:35)
+    failed (src/Test/Util.hs:39)
+    progress (src/Test/Util.hs:32)
+  50% (  1 /  2) in 'Test.InputOutput'
+  Missing documentation for:
+    testInputOutput (src/Test/InputOutput.hs:23)
+Warning: HSE.Type: Could not find documentation for exported module: Export
+   0% (  0 /  7) in 'HSE.Type'
+  Missing documentation for:
+    Module header
+    S (src/HSE/Type.hs:10)
+    Module_ (src/HSE/Type.hs:11)
+    Decl_ (src/HSE/Type.hs:12)
+    Exp_ (src/HSE/Type.hs:13)
+    Pat_ (src/HSE/Type.hs:14)
+    Type_ (src/HSE/Type.hs:15)
+Warning: HSE.FreeVars: freeVars is exported separately but will be documented under FreeVars. Consider exporting it together with its parent(s) for code clarity.
+   0% (  0 /  6) in 'HSE.FreeVars'
+  Missing documentation for:
+    Module header
+    FreeVars (src/HSE/FreeVars.hs:38)
+    vars (src/HSE/FreeVars.hs:16)
+    varss (src/HSE/FreeVars.hs:18)
+    pvars (src/HSE/FreeVars.hs:20)
+    declBind (src/HSE/FreeVars.hs:13)
+   0% (  0 / 84) in 'HSE.Util'
+  Missing documentation for:
+    Module header
+    opExp (src/HSE/Util.hs:18)
+    expOp (src/HSE/Util.hs:22)
+    moduleDecls (src/HSE/Util.hs:27)
+    moduleName (src/HSE/Util.hs:31)
+    moduleImports (src/HSE/Util.hs:36)
+    modulePragmas (src/HSE/Util.hs:40)
+    fromModuleName (src/HSE/Util.hs:44)
+    fromChar (src/HSE/Util.hs:47)
+    fromPChar (src/HSE/Util.hs:51)
+    fromString (src/HSE/Util.hs:55)
+    fromPString (src/HSE/Util.hs:59)
+    fromParen (src/HSE/Util.hs:63)
+    fromPParen (src/HSE/Util.hs:67)
+    fromTyParen (src/HSE/Util.hs:71)
+    fromDeriving (src/HSE/Util.hs:75)
+    isVar (src/HSE/Util.hs:80)
+    isCon (src/HSE/Util.hs:81)
+    isApp (src/HSE/Util.hs:82)
+    isInfixApp (src/HSE/Util.hs:83)
+    isList (src/HSE/Util.hs:84)
+    isAnyApp (src/HSE/Util.hs:85)
+    isParen (src/HSE/Util.hs:86)
+    isIf (src/HSE/Util.hs:87)
+    isLambda (src/HSE/Util.hs:88)
+    isMDo (src/HSE/Util.hs:89)
+    isBoxed (src/HSE/Util.hs:90)
+    isDerivDecl (src/HSE/Util.hs:91)
+    isPBangPat (src/HSE/Util.hs:92)
+    isPFieldPun (src/HSE/Util.hs:93)
+    isFieldPun (src/HSE/Util.hs:94)
+    isPWildCard (src/HSE/Util.hs:95)
+    isPFieldWildcard (src/HSE/Util.hs:96)
+    isFieldWildcard (src/HSE/Util.hs:97)
+    isPViewPat (src/HSE/Util.hs:98)
+    isParComp (src/HSE/Util.hs:99)
+    isPatTypeSig (src/HSE/Util.hs:100)
+    isQuasiQuote (src/HSE/Util.hs:101)
+    isSpliceDecl (src/HSE/Util.hs:102)
+    isNewType (src/HSE/Util.hs:103)
+    isRecStmt (src/HSE/Util.hs:104)
+    isSection (src/HSE/Util.hs:106)
+    allowRightSection (src/HSE/Util.hs:111)
+    allowLeftSection (src/HSE/Util.hs:112)
+    unqual (src/HSE/Util.hs:115)
+    fromQual (src/HSE/Util.hs:119)
+    isSpecial (src/HSE/Util.hs:124)
+    isDol (src/HSE/Util.hs:127)
+    isDot (src/HSE/Util.hs:131)
+    isDotApp (src/HSE/Util.hs:135)
+    dotApp (src/HSE/Util.hs:139)
+    dotApps (src/HSE/Util.hs:142)
+    isLexeme (src/HSE/Util.hs:148)
+    isWHNF (src/HSE/Util.hs:154)
+    getEquations (src/HSE/Util.hs:171)
+    toFunBind (src/HSE/Util.hs:177)
+    replaceBranches (src/HSE/Util.hs:183)
+    apps (src/HSE/Util.hs:202)
+    fromApps (src/HSE/Util.hs:206)
+    childrenApps (src/HSE/Util.hs:214)
+    descendApps (src/HSE/Util.hs:219)
+    descendAppsM (src/HSE/Util.hs:224)
+    universeApps (src/HSE/Util.hs:229)
+    transformApps (src/HSE/Util.hs:232)
+    transformAppsM (src/HSE/Util.hs:235)
+    universeS (src/HSE/Util.hs:242)
+    childrenS (src/HSE/Util.hs:245)
+    universeParentExp (src/HSE/Util.hs:250)
+    showSrcLoc (src/HSE/Util.hs:258)
+    toSrcLoc (src/HSE/Util.hs:264)
+    toSrcSpan (src/HSE/Util.hs:267)
+    nullSrcLoc (src/HSE/Util.hs:270)
+    nullSrcSpan (src/HSE/Util.hs:273)
+    an (src/HSE/Util.hs:276)
+    dropAnn (src/HSE/Util.hs:279)
+    /=~= (src/HSE/Util.hs:288)
+    elem_ (src/HSE/Util.hs:290)
+    notElem_ (src/HSE/Util.hs:290)
+    nub_ (src/HSE/Util.hs:294)
+    intersect_ (src/HSE/Util.hs:297)
+    eqList (src/HSE/Util.hs:300)
+    neqList (src/HSE/Util.hs:300)
+    eqMaybe (src/HSE/Util.hs:306)
+    getFixity (src/HSE/Util.hs:315)
+   4% (  1 / 28) in 'HSE.Match'
+  Missing documentation for:
+    Module header
+    View (src/HSE/Match.hs:11)
+    App2 (src/HSE/Match.hs:15)
+     (src/HSE/Match.hs:17)
+    App1 (src/HSE/Match.hs:23)
+     (src/HSE/Match.hs:25)
+    PApp_ (src/HSE/Match.hs:29)
+     (src/HSE/Match.hs:31)
+    PVar_ (src/HSE/Match.hs:36)
+     (src/HSE/Match.hs:38)
+    Var_ (src/HSE/Match.hs:42)
+     (src/HSE/Match.hs:44)
+    ~= (src/HSE/Match.hs:49)
+    isCtor (src/HSE/Match.hs:60)
+    isSym (src/HSE/Match.hs:63)
+     (src/HSE/Match.hs:67)
+     (src/HSE/Match.hs:77)
+     (src/HSE/Match.hs:86)
+     (src/HSE/Match.hs:95)
+     (src/HSE/Match.hs:102)
+     (src/HSE/Match.hs:109)
+     (src/HSE/Match.hs:114)
+     (src/HSE/Match.hs:124)
+     (src/HSE/Match.hs:130)
+     (src/HSE/Match.hs:136)
+     (src/HSE/Match.hs:141)
+     (src/HSE/Match.hs:148)
+  67% (  4 /  6) in 'HSE.Scope'
+  Missing documentation for:
+    Module header
+    scopeImports (src/HSE/Scope.hs:51)
+   0% (  0 /  3) in 'HsColour'
+  Missing documentation for:
+    Module header
+    hsColourHTML (src/HsColour.hs:24)
+    hsColourConsole (src/HsColour.hs:19)
+   0% (  0 /  2) in 'Parallel'
+  Missing documentation for:
+    Module header
+    parallel (src/Parallel.hs:20)
+   0% (  0 /  8) in 'Paths_hlint'
+  Missing documentation for:
+    Module header
+    version (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:15)
+    getBinDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:25)
+    getLibDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:25)
+    getDataDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:25)
+    getLibexecDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:25)
+    getDataFileName (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:32)
+    getSysconfDir (dist/dist-sandbox-5bf6cc0d/build/autogen/Paths_hlint.hs:25)
+  36% (  4 / 11) in 'Util'
+  Missing documentation for:
+    Module header
+    defaultExtensions (src/Util.hs:122)
+    readFileEncoding (src/Util.hs:38)
+    gzip (src/Util.hs:94)
+    universeParentBi (src/Util.hs:115)
+    descendIndex (src/Util.hs:103)
+    exitMessage (src/Util.hs:83)
+  20% (  2 / 10) in 'CmdLine'
+  Missing documentation for:
+    Module header
+    Cmd (src/CmdLine.hs:70)
+    cmdCpp (src/CmdLine.hs:179)
+    getCmd (src/CmdLine.hs:24)
+    cmdExtensions (src/CmdLine.hs:175)
+    cmdHintFiles (src/CmdLine.hs:172)
+    exitWithHelp (src/CmdLine.hs:45)
+    resolveFile (src/CmdLine.hs:203)
+  30% (  3 / 10) in 'HSE.Bracket'
+  Missing documentation for:
+    Module header
+    Brackets (src/HSE/Bracket.hs:10)
+     (src/HSE/Bracket.hs:23)
+     (src/HSE/Bracket.hs:65)
+     (src/HSE/Bracket.hs:89)
+    transformBracket (src/HSE/Bracket.hs:129)
+    appsBracket (src/HSE/Bracket.hs:142)
+   0% (  0 /  2) in 'HSE.Evaluate'
+  Missing documentation for:
+    Module header
+    evaluate (src/HSE/Evaluate.hs:12)
+Warning: HSE.All: Could not find documentation for exported module: X
+  57% (  4 /  7) in 'HSE.All'
+  Missing documentation for:
+    Module header
+    parseFlagsAddFixities (src/HSE/All.hs:41)
+    parseFlagsSetExtensions (src/HSE/All.hs:45)
+  50% (  2 /  4) in 'Hint.Util'
+  Missing documentation for:
+    Module header
+    niceDotApp (src/Hint/Util.hs:60)
+  40% (  6 / 15) in 'Settings'
+  Missing documentation for:
+    Module header
+    showNotes (src/Settings.hs:71)
+    Setting (src/Settings.hs:97)
+    defaultHintName (src/Settings.hs:21)
+    isUnifyVar (src/Settings.hs:42)
+    readSettings2 (src/Settings.hs:110)
+    readPragma (src/Settings.hs:177)
+    findSettings2 (src/Settings.hs:248)
+    addInfix (src/Settings.hs:47)
+  50% (  1 /  2) in 'Test.Proof'
+  Missing documentation for:
+    proof (src/Test/Proof.hs:33)
+ 100% (  3 /  3) in 'Test.Translate'
+  21% (  3 / 14) in 'Idea'
+  Missing documentation for:
+    Module header
+    showIdeaJson (src/Idea.hs:24)
+    showIdeasJson (src/Idea.hs:43)
+     (src/Idea.hs:46)
+    showANSI (src/Idea.hs:50)
+    showEx (src/Idea.hs:55)
+    rawIdea (src/Idea.hs:67)
+    idea (src/Idea.hs:68)
+    warn (src/Idea.hs:70)
+    err (src/Idea.hs:71)
+    showNotes (src/Settings.hs:71)
+  32% (  8 / 25) in 'Hint.Type'
+  Missing documentation for:
+    Module header
+    DeclHint (src/Hint/Type.hs:10)
+    ModuHint (src/Hint/Type.hs:11)
+    CrossHint (src/Hint/Type.hs:12)
+     (src/Hint/Type.hs:24)
+    showIdeaJson (src/Idea.hs:24)
+    showIdeasJson (src/Idea.hs:43)
+     (src/Idea.hs:46)
+    showANSI (src/Idea.hs:50)
+    showEx (src/Idea.hs:55)
+    rawIdea (src/Idea.hs:67)
+    idea (src/Idea.hs:68)
+    warn (src/Idea.hs:70)
+    err (src/Idea.hs:71)
+    showNotes (src/Settings.hs:71)
+    parseFlagsAddFixities (src/HSE/All.hs:41)
+    parseFlagsSetExtensions (src/HSE/All.hs:45)
+   0% (  0 /  2) in 'Hint.Match'
+  Missing documentation for:
+    Module header
+    readMatch (src/Hint/Match.hs:62)
+   0% (  0 /  2) in 'Hint.List'
+  Missing documentation for:
+    Module header
+    listHint (src/Hint/List.hs:35)
+   0% (  0 /  2) in 'Hint.ListRec'
+  Missing documentation for:
+    Module header
+    listRecHint (src/Hint/ListRec.hs:40)
+   0% (  0 /  2) in 'Hint.Monad'
+  Missing documentation for:
+    Module header
+    monadHint (src/Hint/Monad.hs:50)
+   0% (  0 /  2) in 'Hint.Lambda'
+  Missing documentation for:
+    Module header
+    lambdaHint (src/Hint/Lambda.hs:78)
+   0% (  0 /  2) in 'Hint.Bracket'
+  Missing documentation for:
+    Module header
+    bracketHint (src/Hint/Bracket.hs:66)
+   0% (  0 /  2) in 'Hint.Naming'
+  Missing documentation for:
+    Module header
+    namingHint (src/Hint/Naming.hs:45)
+   0% (  0 /  2) in 'Hint.Structure'
+  Missing documentation for:
+    Module header
+    structureHint (src/Hint/Structure.hs:46)
+   0% (  0 /  2) in 'Hint.Import'
+  Missing documentation for:
+    Module header
+    importHint (src/Hint/Import.hs:52)
+   0% (  0 /  2) in 'Hint.Pragma'
+  Missing documentation for:
+    Module header
+    pragmaHint (src/Hint/Pragma.hs:34)
+   0% (  0 /  2) in 'Hint.Extensions'
+  Missing documentation for:
+    Module header
+    extensionsHint (src/Hint/Extensions.hs:77)
+   0% (  0 /  2) in 'Hint.Duplicate'
+  Missing documentation for:
+    Module header
+    duplicateHint (src/Hint/Duplicate.hs:27)
+   0% (  0 /  2) in 'Hint.Comment'
+  Missing documentation for:
+    Module header
+    commentHint (src/Hint/Comment.hs:27)
+   0% (  0 /  2) in 'Hint.Unsafe'
+  Missing documentation for:
+    Module header
+    unsafeHint (src/Hint/Unsafe.hs:25)
+  44% (  4 /  9) in 'Hint.All'
+  Missing documentation for:
+    Module header
+    DeclHint (src/Hint/Type.hs:10)
+    ModuHint (src/Hint/Type.hs:11)
+    hintRules (src/Hint/All.hs:75)
+    resolveBuiltin (src/Hint/All.hs:71)
+   0% (  0 /  2) in 'Report'
+  Missing documentation for:
+    Module header
+    writeReport (src/Report.hs:25)
+  75% (  3 /  4) in 'Apply'
+  Missing documentation for:
+    Module header
+  94% ( 32 / 34) in 'Language.Haskell.HLint2'
+  Missing documentation for:
+    autoSettings' (src/Language/Haskell/HLint2.hs:66)
+    hintRules (src/Hint/All.hs:75)
+   0% (  0 /  2) in 'Grep'
+  Missing documentation for:
+    Module header
+    runGrep (src/Grep.hs:12)
+  97% ( 28 / 29) in 'Language.Haskell.HLint3'
+  Missing documentation for:
+    parseFlagsAddFixities (src/HSE/All.hs:41)
+  50% (  1 /  2) in 'Test.Annotations'
+  Missing documentation for:
+    testAnnotations (src/Test/Annotations.hs:24)
+   0% (  0 /  2) in 'Test.All'
+  Missing documentation for:
+    Module header
+    test (src/Test/All.hs:22)
+  83% (  5 /  6) in 'HLint'
+  Missing documentation for:
+    Module header
+ 100% (  6 /  6) in 'Language.Haskell.HLint'
+Documentation created: dist/dist-sandbox-5bf6cc0d/doc/html/hlint/index.html
+Preprocessing executable 'hlint' for hlint-1.9.21...
+Creating package registration file:
+/var/folders/jv/m80d3qfn5tz4qyfrtyq42kc00000gn/T/pkgConf-hlint-1.93452056581518163459.21
+Installing library in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/hlint-1.9.21-9N2Sjn4wUuDDrqWq1xJCxK
+Installing executable(s) in
+/Users/katsuya/study/Haskell/First/.cabal-sandbox/bin
+Registering hlint-1.9.21...
