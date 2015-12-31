@@ -1,8 +1,10 @@
 # coding: utf-8
-input_lines = raw_input()
-max_num = int(input_lines)
-ans = 0
-for i in range(max_num + 1):
-    ans += i
-
-print ans
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
