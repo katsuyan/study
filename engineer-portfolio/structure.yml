@@ -1,0 +1,27 @@
+name: 名前
+resume:
+  backgrounds:
+    name: 学校／大学
+    year: 卒業（見込）年度
+social_accounts:
+  github: GitHub ID
+  twitter: Twitter ID
+application_reason:
+  expectation: 期待していること
+  determination: 意気込み
+engineering:
+  why_start_programming: プログラミングを始めたきっかけ
+  intersting_points: 楽しさ、面白さを感じるところ
+  dislike_points: プログラミングで嫌いなところ
+  skill_levels:
+    element: 技術要素
+    level: スキルレベル
+    years: 経験年数
+    explanation: 補足事項
+  favorite_language: 得意なプログラミング言語
+  dislike_language: 嫌いなプログラミング言語
+  pr: 技術についての自己PR
+intern_experiences:
+  company: 会社名
+  detail: 内容
+other_appeal_points: その他アピールポイント
