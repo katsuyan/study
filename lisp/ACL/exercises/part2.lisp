@@ -72,14 +72,25 @@
 
 ;;(b)反復
 (defun a-num (lst)
-  )
+  (do ((i lst (cdr i))
+       (n 0 (+ n (if (eq (car i) 'a) 1 0))))
+      ((not i) n)))
 
 ;;(b)再起
 (defun a-num (lst)
-  )
+  (if lst
+      (+ (if (eq (car lst) 'a) 1 0) (a-num (cdr lst)))
+      0))
 
 
 ;;Q9
 ;;(a)
+(defun summit (lst)
+    (apply #'+ (remove nil lst)))
 
 ;;(b)
+(defun summit (lst)
+  (let ((x (car lst)))
+    (if (null x)
+        0
+        (+ x (summit (cdr lst))))))
