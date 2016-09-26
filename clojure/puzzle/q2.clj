@@ -30,8 +30,7 @@
                       (palindromes-num? num ((ops 0) ((ops 1) (nums 3) (nums 2)) ((ops 2) (nums 1) (nums 0))))
                       (palindromes-num? num ((ops 0) ((ops 1) (nums 3) ((ops 1) (nums 2) (nums 1))) (nums 0))))
               true
-              (recur (rest opls)))))))
-    ))
+              (recur (rest opls)))))))))
 
 (defn get-answer []
   (loop [num 1000]
